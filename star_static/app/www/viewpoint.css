@@ -1,0 +1,104 @@
+.viewpoint { margin: 25px auto; /* right column */ /* bottom */ }
+.viewpoint ul, .viewpoint li { overflow: hidden; }
+.viewpoint .row { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 1000px; }
+.viewpoint .col-left { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 675px; float: left; }
+.viewpoint .col-right { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 300px; float: left; margin-left: 25px; }
+.viewpoint .blank { height: 25px; clear: both; }
+.viewpoint .ad { margin: 20px 0; }
+.viewpoint .ad img { width: 100%; }
+.viewpoint .ad.ad1 { margin-top: 0; }
+.viewpoint .widget { width: auto; margin-bottom: 20px; }
+.viewpoint .widget .widget-head { height: 46px; line-height: 46px; font-size: 18px; border-top: 1px solid #eb6100; border-bottom: 1px solid #e8e8e8; background-color: #fff; }
+.viewpoint .widget .widget-head .links { display: inline-block; float: right; height: 46px; line-height: 46px; }
+.viewpoint .widget .widget-head .links a { color: #333; font-size: 12px; margin-left: 15px;padding: 0 2px 0 2px;}
+.viewpoint .widget .widget-head .links a:hover{background-color: #eb6001; text-decoration: none; color: #fff; border-radius:15%;}
+.viewpoint .widget .widget-content { clear: both; min-height: 100px; }
+.viewpoint .topslide { overflow: hidden; background-color: #eee; position: relative; height: 330px; width: 1000px; margin-bottom: 20px; }
+.viewpoint .topslide .slides { height: 330px; width: 3000px; position: absolute; }
+.viewpoint .topslide .slides li { height: 330px; width: 1000px; padding: 25px; box-sizing: border-box; float: left; }
+.viewpoint .topslide .slides li .title { font-size: 24px; margin-top: 0; margin-bottom: 20px; }
+.viewpoint .topslide .slides li .thumb { float: right; height: 330px; width: 620px; margin: -25px -25px -25px 20px; }
+.viewpoint .topslide .slides li .thumb img { width: 100%; height: 100%; }
+.viewpoint .topslide .slides li p { color: #666; }
+.viewpoint .topslide .indicator { position: absolute; bottom: 15px; left: 0; text-align: center; width: 380px; }
+.viewpoint .topslide .indicator li { display: inline-block; }
+.viewpoint .topslide .indicator li a { border-radius: 50%; background-color: #bbbbbb; color: #fff; height: 24px; line-height: 24px; width: 24px; text-align: center; display: inline-block; margin: 0 3px; }
+.viewpoint .topslide .indicator li.active a { background-color: #eb6100; }
+.viewpoint .topslide .slidepre{ font-size:50px; color:#fff; position:absolute; left:0; top:125px; cursor:pointer;}
+.viewpoint .topslide .slidenext{ font-size:50px; color:#fff; position:absolute; right:0; top:125px; cursor:pointer;}
+.viewpoint .talk { margin-bottom: 20px; overflow: hidden; }
+.viewpoint .talk .head { width: 35px; height: 102px; box-sizing: border-box; float: left; background-color: #eb6001; padding: 15px 0; font-size: 15px; }
+.viewpoint .talk .head span { display: block; line-height: 1.2em; text-align: center; color: #fff; font-family: sans-serif; }
+.viewpoint .talk ul { float: left; width: 965px; border: 1px solid #e8e8e8; border-left-width: 0; box-sizing: border-box; }
+.viewpoint .talk li { float: left; width: 25%; height: 100px; box-sizing: border-box; padding: 15px 0 15px 15px; position: relative; }
+.viewpoint .talk li .avatar { width: 70px; height: 70px; display: inline-block; float: left; margin-right: 10px; }
+.viewpoint .talk li .avatar img { width: 100%; height: 100%; border-radius: 0; }
+.viewpoint .talk li .title a:hover{color: #eb6001; text-decoration: none;}
+.viewpoint .talk li .author { color: #bbbbbb; position: absolute; bottom: 15px; line-height: 1em; }
+.viewpoint .opinions .opinion h3 { font-size: 24px; line-height: 2.5em; }
+.viewpoint .opinions .opinion .info { position: relative; overflow: hidden; margin-bottom: 15px; }
+.viewpoint .opinions .opinion .info .thumb { width: 170px; height: 130px; display: inline-block; float: left; margin-right: 10px; }
+.viewpoint .opinions .opinion .info .thumb img { width: 100%; height: 100%; }
+.viewpoint .opinions .opinion .info .intro { color: #878787; }
+.viewpoint .opinions .opinion .info .updatetime { position: absolute; bottom: 0; color: #cbcbcb; }
+.viewpoint .opinions .opinion .pk .head { background-color: #f0f0f0; padding: 5px; position: relative; overflow: hidden; }
+.viewpoint .opinions .opinion .pk .head .agree { display: inline-block; width: 60px; height: 56px; border-radius: 5px; box-sizing: border-box; border: 1px solid #eb6100; background: #eb6100 url("images/agree.png") no-repeat center top; text-decoration: none; float: left; }
+.viewpoint .opinions .opinion .pk .head .agree span { margin-top: 30px; color: #eb6100; display: block; background-color: #fff; text-align: center; border-radius: 0 0 4px 4px; }
+.viewpoint .opinions .opinion .pk .head .agree.r { background: #009beb url("images/agree.png") no-repeat center -28px; border-color: #009beb; float: right; }
+.viewpoint .opinions .opinion .pk .head .agree.r span { color: #009beb; }
+.viewpoint .opinions .opinion .pk .head .triangle { border-color: #959394 #f0f0f0 #f0f0f0 #f0f0f0; border-width: 67px 45px 0 45px; border-style: solid; width: 0; height: 0; position: absolute; top: 0; left: 293px; }
+.viewpoint .opinions .opinion .pk .head .triangle span { font: bold 26px sans-serif; position: absolute; top: -62px; left: -18px; color: #fff; }
+.viewpoint .opinions .opinion .pk .head .op { float: left; margin-left: 15px; width: 205px; display: inline-block; font-family: sans-serif; }
+.viewpoint .opinions .opinion .pk .head .op.r { float: right; margin: 0 15px 0 0; }
+.viewpoint .opinions .opinion .pk .list { margin-top: 0; }
+.viewpoint .opinions .opinion .pk .list ul { width: 50%; margin: 0; padding: 0; float: left; overflow: hidden; border: 1px solid #e8e8e8; box-sizing: border-box; }
+.viewpoint .opinions .opinion .pk .list ul:first-child { border-right-width: 0; }
+.viewpoint .opinions .opinion .pk .list li { padding: 2px 10px; margin: 0; border: none; }
+.viewpoint .opinions .comment li { position: relative; height: 50px; padding: 10px 25px; }
+.viewpoint .opinions .comment h4 { font: normal 20px/2.5 sans-serif; border-bottom: 1px solid #e8e8e8; }
+.viewpoint .opinions .comment .quo { font: normal 36px/1 SimHei, sans-serif; color: #c9c9c9; }
+.viewpoint .opinions .comment .quo.l { position: absolute; top: 5px; left: -18px; }
+.viewpoint .opinions .comment .quo.r { position: absolute; bottom: -10px; right: -17px; }
+.viewpoint .opinions .comment .action { text-align: center; padding: 15px 0; }
+.viewpoint .opinions .comment .action a { background-color: #ea6200; color: #fff; text-decoration: none; padding: 8px; border-radius: 2px; }
+.viewpoint .stars { padding: 10px; background-color: #f0f0f0; overflow: hidden; }
+.viewpoint .stars ul { margin: 0 -5px; padding: 0; }
+.viewpoint .stars ul li { margin: 0; padding: 0 5px; float: left; width: 12.5%; height: 75px; box-sizing: border-box; }
+.viewpoint .stars ul li img { width: 100%; height: 100%; }
+.viewpoint .list { margin-top: 20px; }
+.viewpoint .list li { font-size: 12px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed #cacaca; }
+.viewpoint .list li .thumb { width: 155px; height: 115px; display: inline-block; float: left; margin-right: 15px; }
+.viewpoint .list li .thumb img { width: 100%; height: 100%; }
+.viewpoint .list li .title { margin: 0 0 10px; font-size: 16px; }
+.viewpoint .list li .title a { color: #eb6100; text-decoration: none; }
+.viewpoint .list li .intro { color: #888888; line-height: 2em; }
+.viewpoint .list li .intro .fulltext { color: #eb6100; }
+.viewpoint .list li .author { background-color: #5a5655; color: #fff; padding: 3px 5px; border-radius: 2px; margin-right: 5px; }
+.viewpoint .list li .tag { color: #bcbcbc; }
+.viewpoint .list li .posttime { float: right; color: #c9caca; }
+.viewpoint .list-more { height: 30px; background-color: #eb6100; text-align: center; margin-bottom: 15px; }
+.viewpoint .list-more a { height: 30px; line-height: 30px; color: #fff; }
+.viewpoint .journalists ul { margin-top: 10px; }
+.viewpoint .journalists li { margin-bottom: 10px; padding-bottom: 10px; position: relative; border-bottom: 1px dashed #cacaca; overflow: hidden; }
+.viewpoint .journalists li:last-child { border-bottom: none; margin-bottom: 0; }
+.viewpoint .journalists li a { display: inline-block; }
+.viewpoint .journalists .avatars { margin: 0 -5px; border-bottom: 1px dashed #cacaca; }
+.viewpoint .journalists .avatars li { margin-bottom: 20px; padding: 0 5px; float: left; width: 25%; box-sizing: border-box; border: none; }
+.viewpoint .journalists .avatars li img { width: 100%; height: 70px; }
+.viewpoint .journalists .avatars li .author { text-align: center; color: #000; line-height: 1em; }
+.viewpoint .journalists .avatar { height: 70px; width: 70px; display: inline-block; float: left; margin-right: 10px; }
+.viewpoint .journalists .avatar img { height: 100%; width: 100%; border-radius: 0; }
+.viewpoint .journalists h4 { font-weight: normal; font-size: 12px; line-height: 1.8em; max-height: 3.6em; margin-bottom: 7px; }
+.viewpoint .journalists .author .name { background-color: #5a5655; color: #fff; padding: 3px 5px; border-radius: 2px; margin-right: 5px; }
+.viewpoint .journalists .author .title { font-size: 12px; color: #bcbcbc; line-height: 1em; }
+.viewpoint .journalists .intro { color: #888888; margin-top: 5px; }
+.viewpoint .discussion .widget-head { border-bottom: none; }
+.viewpoint .discussion ul { margin: 0 -10px; }
+.viewpoint .discussion ul li { margin: 0 10px 10px; padding: 10px; overflow: hidden; width: 490px; float: left; box-sizing: border-box; background-color: #f0f0f0; }
+.viewpoint .discussion ul li .avatar { width: 70px; height: 70px; display: inline-block; float: left; }
+.viewpoint .discussion ul li .avatar img { width: 100%; height: 100%; border-radius: 0; }
+.viewpoint .discussion ul li .author { width: 85px; height: 70px; padding: 0 10px; box-sizing: border-box; float: left; border-right: 1px solid #e4e4e4; }
+.viewpoint .discussion ul li .author .name { font-size: 15px; font-family: sans-serif; line-height: 2.2em; }
+.viewpoint .discussion ul li .author .title { color: #bdbdbd; }
+.viewpoint .discussion ul li .content { width: 315px; height: 70px; margin: 0; padding-left: 10px; box-sizing: border-box; float: left; }
+.viewpoint .discussion ul li .content li { margin: 0; padding: 0; line-height: 2.4em; font-size: 14px; }

@@ -1,0 +1,559 @@
+@charset "utf-8";
+
+*{ padding:0px; margin:0px;}
+body{ margin:0px; padding:0px; color:#333; font-size:12px; font-family:SimSun;}
+.bodyBg{ background:#f3f3f3;}
+
+ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form,img {margin: 0px;padding: 0px;}
+
+ul, li { list-style:none;}
+input.sendBtn{outline: none;}
+img {border:0 none;}
+
+.clear{clear:both; font-size:0px; height:0px; overflow:hidden;}
+.jianju{ height:20px; clear:both;}
+.jianju15{ height:15px;clear:both;}
+.jianju10{ height:10px;clear:both;}
+
+.jianju25{ height:25px;clear:both;}
+.jianju30{ height:30px;clear:both;}
+.jianju40{ height:40px;clear:both;}
+
+.box{ clear:both; width:1000px; margin:0 auto;}
+.fl{ float:left;}
+.fr{ float:right;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#ce000c;text-decoration:underline;}
+.colorRed{color:#ce000c;}
+.colorBlack{ color:#000;}
+
+.head{ background:#0f4ba3; height:30px; line-height:30px;font-size:14px; width:100%;}
+.head li{ margin-left:17px; display:inline;}
+.head a{ color:#fff; margin:0;}
+
+.ban{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ban.jpg") center top no-repeat; height:100px; width:100%;}
+.menu{ padding-left:270px; padding-top:60px; font-size:20px;font-family: Microsoft YaHei;}
+.menu li{ display:inline; margin-right:25px;}
+.menu li a{ color:#c9caca;}
+.menu li a:hover{ color:#fff; text-decoration:none;}
+.menu li a.active{ color:#fff; text-decoration:none;}
+
+.loginBox{ padding-top:40px;}
+.loginBox a{ width:59px; height:28px; line-height:28px; text-align:center; color:#fff; font-size:16px; float:left; border:1px solid #fff;moz-border-radius: 2px;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; margin-right:20px;}
+.loginBox a:hover{background-color: white; color:black; text-decoration: none;}
+
+.userBox{padding-top:60px;}
+.userBox a{ color:#fff; font-family: Microsoft YaHei; font-size:16px; float:left; display:block; width:25px; height:25px; line-height:25px; margin-right:25px;}
+.userBox .userName{ width:auto;}
+.gz{ background:url("http://star.usportnews.com/statics/images/stars/star_info/u_01.png") no-repeat;}
+.xx{ background:url("http://star.usportnews.com/statics/images/stars/star_info/u_02.png") no-repeat;}
+.sz{ background:url("http://star.usportnews.com/statics/images/stars/star_info/u_03.jpg") no-repeat;}
+
+.Prompt{ background:#fffccc;font-family: Microsoft YaHei; height:25px; line-height:25px; text-align:center;}
+.Prompt a{ color:#c30d23;}
+
+.loginWay{ background:#b5b5b6; height:34px; line-height:34px; padding:23px 0; color:#fff;}
+.loginWay .fl{ font-size:18px; color:#fff;font-family: Microsoft YaHei;}
+.loginWay .fr{ font-size:14px;}
+.loginWay .fr a{ display:inline-block; width:34px; height:34px; margin-left:10px; vertical-align:middle;}
+.qq_ico{ background:url("http://star.usportnews.com/statics/images/stars/star_info/qq.jpg") no-repeat;}
+.xl_ico{ background:url("http://star.usportnews.com/statics/images/stars/star_info/xl.jpg") no-repeat;}
+.wx_ico{ background:url("http://star.usportnews.com/statics/images/stars/star_info/wx.jpg") no-repeat;}
+
+.info_l{ width:700px;}
+.infoTitile{font-family: Microsoft YaHei; font-size:16px; color:#c5d0e1; background:url("http://star.usportnews.com/statics/images/stars/star_info/title.jpg") repeat-x; height:41px; line-height:41px; width:700px;}
+.infoTitile a{ color:#c9caca; padding:0 10px; display:inline-block; height:41px;}
+.infoTitile a:hover{ color:#fff; text-decoration:none;}
+.infoTitile a.active{ color:#fff; background:url("http://star.usportnews.com/statics/images/stars/star_info/title_h.jpg") center bottom no-repeat; text-decoration:none;}
+.popuPage .infoTitile .fr a{ color:#fff; background:none; padding:0 10px;}
+.infoTitile .fr a:hover{ color:#fff; background:none; text-decoration:underline;}
+
+
+.infoBox{ border:1px solid #cacbcb; border-top:0 none; background:#fff;min-height: 100px;}
+.infoBox .info_msg{font-family: Microsoft YaHei;position: relative;top: 32px;text-align: center;margin-left: 20px;font-size:16px;}
+.infoBox .info_msg a{font-family: Microsoft YaHei;color: #e53e48;}
+.infoBox .info_msg a:hover{color: #ff1d38;text-decoration: none;cursor: pointer;}
+
+
+.infoBg{ background:url("http://star.usportnews.com/statics/images/stars/star_info/listbg.jpg") left bottom no-repeat;padding:0px 19px 12px 24px; margin-left:-5px;}
+.infoBgLast{ background:#ffffff;padding:0px 19px 12px 24px; margin-left:-5px;}
+
+.infoList{  border-bottom:1px solid #cccccd; padding:10px 0;}
+#star_info_single .infoList{border: none;}
+.avatar{ width:61px; overflow:hidden; text-align:center;}
+.avatar a{ display:block;}
+.avatar img{ max-width:64px;}
+.avatarImg{ margin-bottom:10px;}
+.subscribe{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") -173px -27px no-repeat; width:46px; padding-left:15px; height:22px; line-height:22px; color:#595757;}
+.subscribed{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") 0 -27px no-repeat; width:46px; padding-left:15px; height:22px; line-height:22px;color:#595757;}
+.subscribe:hover{text-decoration: none; background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") -87px -27px no-repeat; width:46px; padding-left:15px; height:22px; line-height:22px; color:#fff;}
+.subscribed:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") 0 -27px no-repeat; width:42px; padding-left:19px; height:22px; line-height:21px;color:#fff;}
+
+.infoMain{ margin-left:18px; width:580px;}
+.infoMain_pre{ width:660px; margin:0;}
+.infoMain_pre .commentBox{ margin:0;}
+.listTitle{ height:20px; line-height:20px;}
+.listTitle .fl{ font-size:16px;font-family: Microsoft YaHei; color:#111111;}
+.textbg{ background:url("http://star.usportnews.com/statics/images/stars/star_info/textbg.jpg") 0 -32px no-repeat; color:#595757; padding-left:24px; width:31px; height:20px; line-height:20px; display:block;}
+.textbg:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/textbg.jpg") 0 0 no-repeat; color:#fff; text-decoration:none;}
+.textbg_ed{background:url("http://star.usportnews.com/statics/images/stars/star_info/textbg.jpg") 0 0 no-repeat; color:#fff; padding-left:24px; width:31px; height:20px; line-height:20px; display:block;}
+
+.infoCon{ font-size:14px; line-height:160%; padding:10px 0;min-height: 30px;}
+.infoCon a{ color: #0f4ba3;}
+.infoCon .link_star span{padding-left: 5px;}
+.infoCon .link_star a{color: darkgreen;padding: 5px;}
+.infoCon_all{ border-top:1px dotted #d24a5a; color:#8d8d8d; clear:both; font-size:14px; line-height:160%; padding:10px 0; display:none;}
+.list_pic{ padding:10px 0;}
+.list_pic li{ float:left; display:inline; margin:0 10px 10px 0;}
+
+
+.list_video .video_thumb{max-height: 120px;max-width: 120px;display: block;overflow: hidden;}
+.list_video .video_thumb img{max-height: 120px;}
+.list_video .video_thumb .videoIco{top: -50px;position: relative;}
+.list_video .video_html{text-align: center;max-height: 430px;max-width: 480px;overflow: hidden;padding: 5px;border:1px solid #b9b9ba;}
+.list_video .W_ico12 {
+    background-image: url("http://star.usportnews.com/statics/images/stars/star_info/ico.png");
+    display: inline-block;
+    float: inherit;
+    height: 12px;
+    width: 20px;
+}
+.list_video .expand_top{
+	color:#14a0cd;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	max-width:480px;
+  height: 26px;
+  float: left;
+}
+.list_video .expand_top a{
+	text-decoration: none;
+}
+.list_video .expand_top .W_vline{
+	margin: 0 10px;
+}
+.list_video .ico_retract{
+	
+	vertical-align: -2px;
+}
+
+
+.list_pic_big{ margin:10px 0; padding:19px;border:1px solid #b9b9ba;moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;display:none;}
+.picBigTitle{ padding:0px 0 10px 0;color:#898989; height:16px; line-height:16px;}
+.picBigTitle a{ color:#898989; margin:0 10px; display:inline-block;}
+.picBigTitle a:hover{ color:#595757;}
+.listBig{ width:540px; height:405px; overflow:hidden;}
+.star_info_bigpic{ width:3000px;}
+.listBig li{ float:left; display:inline; overflow:hidden;}
+.listSmall{ position:relative; padding:17px 0; overflow: hidden; }
+.listSmall ul{width:500px; margin-left:-5px; padding-left:22px;}
+.listSmall li{ float:left; margin-left:5px;}
+.listSmall li a{ display:block;width:80px; height:60px; border:1px solid #fff; padding:1px;}
+.listSmall li a:hover{ border:1px solid #e64a53;}
+.listSmall li.active a{ border:1px solid #e64a53;}
+
+.listSmall .lookAll a{ background:#b5b5b6; color:#e60012; border:1px solid #b5b5b6; line-height:60px;}
+.listSmall .lookAll a:hover{border:1px solid #b5b5b6;}
+
+.picBigTitle a{ padding-left:20px;}
+.picBiga{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") no-repeat;}
+.picBigb{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") -67px 0 no-repeat;}
+.picBigc{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") -164px 0 no-repeat;}
+.picBigd{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") -243px 0 no-repeat;}
+
+.picBiga:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") 0 -39px no-repeat;}
+.picBigb:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") -67px -39px no-repeat;}
+.picBigc:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") -164px -39px no-repeat;}
+.picBigd:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ico.png") -243px -39px no-repeat;}
+
+.pre{ position:absolute; left:0; top:19px; width:20px; height:60px; background:url("http://star.usportnews.com/statics/images/stars/star_info/pre.png") 0 -68px no-repeat; z-index: 100; }
+.next{ position:absolute; right:0; top:19px;width:20px; height:60px;  background:url("http://star.usportnews.com/statics/images/stars/star_info/pre.png") -34px -68px no-repeat; z-index: 100;}
+
+.pre:hover{ position:absolute; left:0; top:19px; width:20px; height:60px; background:url("http://star.usportnews.com/statics/images/stars/star_info/pre.png") 0 0 no-repeat; }
+.next:hover{ position:absolute; right:0; top:19px;width:20px; height:60px;  background:url("http://star.usportnews.com/statics/images/stars/star_info/pre.png") -34px 0 no-repeat;}
+
+.pre_end{ position:absolute; left:0; top:19px; width:20px; height:60px; background:url("http://star.usportnews.com/statics/images/stars/star_info/pre.png") 0 0 no-repeat; }
+.next_end{ position:absolute; right:0; top:19px;width:20px; height:60px;  background:url("http://star.usportnews.com/statics/images/stars/star_info/pre.png") -34px 0 no-repeat;}
+
+.wbFrom{ background:url("http://star.usportnews.com/statics/images/stars/star_info/from.jpg") 0 3px no-repeat; padding-left:20px; color:#8e8e8e; font-size:12px;}
+
+.funBox{ font-size:14px;font-family: Microsoft YaHei;}
+.funBox a{ display:inline-block; padding-left:23px; color:#b5b5b6; height:22px; line-height:22px; vertical-align:middle; margin:0 6px;}
+.funBox a:hover{ color:#e53e48; text-decoration:none;}
+.zan{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/zan.png") no-repeat;}
+.zan:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/zan_ed.png") no-repeat;}
+.funBox .zan_ed{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/zan_ed.png") no-repeat;color: #e53e48;}
+
+.funBox a.zf{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/zf.png") no-repeat; padding-left:18px;}
+.funBox a.zf:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/zf_ed.png") no-repeat;}
+.funBox a.zf_ed{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/zf_ed.png") no-repeat;}
+
+.sc{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/sc.png") no-repeat;}
+.sc:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/sc_ed.png") no-repeat;}
+.sc_ed{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/sc_ed.png") no-repeat;}
+
+.pl{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/pl.png") no-repeat;}
+.pl:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/pl_ed.png") no-repeat;}
+.pl_ed{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/pl_ed.png") no-repeat;}
+
+.funBox span{ color:#a8a8a8; display:inline-block; vertical-align:middle;}
+
+.shareElse{position:absolute; right:60px; top:-30px; display:none;}
+.shareComment{margin-right:10px;width: 100px;z-index: 100;}
+.listSetBox{ height:22px; line-height:22px; clear:both;}
+.listSet{ position:relative;}
+
+.commentBox{width:661px; margin-left:-80px; margin-top:8px; display:none;}
+.commentTitle{background:url("http://star.usportnews.com/statics/images/stars/star_info/pltop.jpg") no-repeat;height:15px;}
+.commentMain{border:1px solid #bababb; border-top:0 none;moz-border-radius:0 0 4px 4px;-khtml-border-radius: 0 0 4px 4px;-webkit-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px; padding:10px 23px; width:613px; margin-bottom:20px;}
+
+.commentTrea{ width:601px; border:1px solid #c9caca;moz-border-radius:4px;-khtml-border-radius:4px;-webkit-border-radius:4px;border-radius:4px; padding:5px;}
+.commentTrea textarea{ border:0 none; width:601px;line-height:160%; overflow-y: hidden;}
+textarea:focus {outline: none;}
+
+.shareMain{ height:21px; line-height:21px;}
+.shareElse{min-height: 32px;}
+.shareNews{width: 100px;z-index: 100;}
+.shareContent{width: 100px;z-index: 100;}
+.shareMain a{ display:inline-block; width:21px; height:21px; vertical-align:middle; margin-left:5px;}
+.share_xl{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/xl.png") no-repeat;}
+.share_kj{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/kj.png") no-repeat;}
+.share_wx{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/wx.png") no-repeat;}
+
+.share_xl:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/xl_ed.png") no-repeat;}
+.share_kj:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/kj_ed.png") no-repeat;}
+.share_wx:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/wx_ed.png") no-repeat;}
+
+.share_xled{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/xl_ed.png") no-repeat;}
+.share_kjed{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/kj_ed.png") no-repeat;}
+.share_wxed{background:url("http://star.usportnews.com/statics/images/stars/star_info/funbox/wx_ed.png") no-repeat;}
+
+
+.bqBox{ margin-right:25px;}
+.bqIco{ background:url("http://star.usportnews.com/statics/images/stars/star_info/bq.png") -39px 0 no-repeat; display:inline-block; width:27px; height:27px;}
+.bqIco:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/bq.png") 0px 0 no-repeat;}
+.sendBtn{ background:#e53e48; color:#fff;width:80px; height:27px; text-align:center; line-height:27px; border:1px solid #e0232f; font-size:16px;moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; cursor:pointer;}
+.sendBtn:hover{ background:#ff1d38;}
+
+
+.com_hotTitle{ color:#000; font-size:16px; font-weight:bold; border-bottom:1px solid #a4a4a4; padding:5px 0;}
+.commentList{ padding:13px 0; border-bottom:1px solid #e3e4e4; position:relative;}
+
+.commentList .shareElse{ right:20px; top:10px; bottom:auto;}
+.commentList .setRight{ position:relative;}
+.commentList .setRight .shareElse{ top:-30px; width:100px;}
+.commentList .commentTxt .GailouList .shareElse{ top:10px;}
+.commPic{ width:40px;}
+.commPic a{ cursor: default;}
+
+.commentTxt{ margin-left:15px; width:558px; overflow:hidden; position: relative;}
+.commentInfo{ font-size:14px; padding:10px 0; line-height:160%; color:#000; width:510px;}
+.time_reply{ font-size:12px; color:#8e8e8e;}
+
+.funMain{ height:25px; clear:both;}
+.replyBox{ padding:20px 20px 7px 20px; background:#dcdddd;moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; clear:both; margin-top:5px; display:none;}
+
+.replyBox .commentTrea,.replyBox .commentTrea textarea{ width:506px; background:#fff;}
+.replyBox .commentTrea textarea{ height:27px;}
+
+.Gailou{ background:#dcdddd; overflow:hidden;}
+.floor{ font-size:14px; padding:10px 0;}
+.Gailou .replyBox{ padding:0; margin:0;}
+
+.GailouList{ padding:0 15px 10px 15px; border-top:1px solid #9b9d9c; margin-top:-1px; min-height: 78px; position:relative;}
+.GailouList .funMain{ display: none;}
+
+.addMore{ font-size:14px; text-align:center; color:#000201; padding-top:10px;}
+
+.starMore{padding-top:0;padding-bottom: 12px;}
+.addMore span{ color:#992a3a;}
+
+.info_r{ width:280px;}
+.info_Module{ border:1px solid #dcdcdc;moz-border-radius:2px;-khtml-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;background:#fff;}
+.scroll_float{ position:relative;min-height: 474px}
+.title_r{ border-bottom:1px solid #dcdddd; color:#595757; height:30px; line-height:30px; background:#efefef; padding:0 10px;  }
+.title_r .fl{font-size:14px;font-family: Microsoft YaHei;color:#1c1c1c; font-size:16px;}
+.title_a{ background:url("http://star.usportnews.com/statics/images/stars/star_info/xing.jpg") 0 5px no-repeat; padding-left:25px;}
+.title_r a.fr{color:#595757;}
+.title_r a.fr:hover{ color:#e53e48}
+
+.title_a5{ background:url("http://star.usportnews.com/statics/images/stars/star_info/search.png") 0 5px no-repeat; padding-left:25px;}
+.title_a4{ background:url("http://star.usportnews.com/statics/images/stars/star_info/game.jpg") 0 5px no-repeat;}
+.title_a3{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ai.png") 0 7px no-repeat;}
+.title_a2{ background:url("http://star.usportnews.com/statics/images/stars/star_info/hot.jpg") 0 5px no-repeat;}
+.title_a1{ background:url("http://star.usportnews.com/statics/images/stars/star_info/qi.jpg") 0 3px no-repeat;}
+
+.starList{ padding:0 2px; overflow:hidden; padding-bottom:20px;}
+.starList ul{}
+.starList li{ float:left; width:75px; overflow:hidden; margin-left:12px; margin-top:15px; display:inline; text-align:center;}
+.starList li a{ display:block; margin-bottom:5px;}
+.starList li a.star_name{ width: 70px;overflow: hidden;height: 14px;text-align: center;}
+.starList li a img{min-height: 75px;}
+.subscribea{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") -173px 0px no-repeat; width:45px; padding-left:30px; height:22px; line-height:21px; color:#595757; text-align:left;}
+.subscribead{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") 0 0px no-repeat; width:45px; padding-left:30px; height:22px; line-height:21px;color:#595757;text-align:left;}
+.subscribea:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") -87px 0px no-repeat; width:45px; padding-left:30px; height:22px; line-height:21px; color:#fff;text-align:left;text-decoration: none;}
+.subscribead:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.jpg") 0 0px no-repeat; width:45px; padding-left:30px; height:22px; line-height:21px;color:#fff;text-align:left;}
+
+.Popularity{ padding:19px 19px 9px 19px; }
+
+.star_pop_sub{margin-left: -30px;padding: 0;margin-right: 0;float: left;}
+.star_pop_num{text-align: left;width: 30px;float: right;}
+
+.icoNum{ width:25px; height:25px; border:1px solid #a8a9a9; color:#000;moz-border-radius:50%;-khtml-border-radius:50%;-webkit-border-radius:50%;border-radius:50%; font-size:16px; font-style:normal;font-family: Microsoft YaHei; display:block; float:left; text-align:center; line-height:25px; margin:8px 6px 0 3px;}
+
+.bgRed{ background:#e53e48; color:#fff;border:1px solid #cd2b2c; }
+
+.Popularity li{ color:#595757;line-height:40px; padding:4px 5px; border:1px solid #dcdddd;moz-border-radius:4px;-khtml-border-radius:4px;-webkit-border-radius:4px;border-radius:4px; height:40px; margin-bottom:10px;}
+.Popularity a{ font-size:14px; margin-right:9px;}
+
+.infoHot{ padding:10px 15px;}
+.infoHot li{ border-bottom:1px dotted #dadadb; padding:10px 0; line-height:160%;}
+.infoHotTxt{ width:175px; margin-left:7px;}
+
+.infoHotTxt a{ color:#303030;}
+.infoHotTxt a.colorRed{ color:#ce000c;}
+.infoHotTxt .pla{ background:url("http://star.usportnews.com/statics/images/stars/star_info/pl2.png") no-repeat; padding-left:20px; margin-top:12px;font-family: Microsoft YaHei;}
+
+.infoFans{ padding:19px 7px 5px 19px;}
+.infoFans li{ float:left; display:inline; width:50px; text-align:center; margin-right:12px; margin-bottom:15px;}
+.infoFans a{ color:#595757; display:block; margin-bottom:4px;}
+
+.infoLook{ padding:19px;padding-bottom: 50px;}
+.infoLook input{ width:165px; padding:0 5px; height:22px; line-height:22px; border:1px solid #cfd0d0; margin-left:10px;}
+.infoLook .request{background: url("http://star.usportnews.com/statics/images/stars/star_info/star.png") no-repeat;position: relative;top: 2px; padding: 0 4px 0 4px;margin-left: -13px;margin-right: 5px;}
+.infoLook .sendBtn{ width:180px; height:24px; line-height:24px; font-size:14px; border:1px solid #e0232f; padding:0; margin:0; margin-left:30px;margin-top: 20px;}
+.join .complaint{ width:180px; height:24px; line-height:24px; font-size:14px; border:1px solid #e0232f; padding:0; margin:0; margin-left:30px;margin-top: 20px;text-decoration: none;color: #fff; display: block;}
+
+
+.page{ padding:40px 0; text-align:center; font-family: Microsoft YaHei; clear:both;}
+.page a{cursor: pointer;font-size: 18px; padding:4px 12px; border:1px solid #fff;moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; text-align:center; color:#686868; margin:0 3px;}
+.page a:hover{ border:1px solid #e8565f; text-decoration:none;}
+.page a.active{ background:#e53e48;border:1px solid #e53e48; color:#fff;}
+
+
+.likeBox{background:#dcdddd;}
+.likeBox .box{ padding:20px 30px; width:940px; overflow:hidden;}
+.likeBox a{ color:#000000;}
+.likeBox a:hover{ color:#ce000c;}
+.likeTitle{font-family: Microsoft YaHei; font-size:16px; color:#000000;}
+.likeMain{ font-size:14px; padding:15px 0; line-height:180%; overflow:hidden; margin-left:-35px;}
+.likeMain ul{ float:left; display:inline; width:175px; padding-left:35px; border-left:1px solid #939494; margin-left:-1px;}
+.likeMain ul li{ background:url("http://star.usportnews.com/statics/images/stars/star_info/dian.jpg") 0 12px no-repeat; padding-left:15px;}
+
+
+
+
+.personal{ border:1px solid #cacaca; padding:19px; width:960px; margin:0 auto; background:#fff;moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.infoTitile_current a{ color:#fff; background:url("http://star.usportnews.com/statics/images/stars/star_info/title_h.jpg") center bottom no-repeat; text-decoration:none;}
+.perPic{ width:260px; height:260px;}
+.perData{ width:660px;font-family: Microsoft YaHei; color:#727171;}
+.perName{ font-size:24px; color:#000; padding:18px 0 20px 0; height:32px; line-height:32px;}
+.subscribeb{color:#000; font-size:18px; background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.png") -123px 0 no-repeat; height:32px; line-height:32px; padding-left:45px; width:61px;}
+.subscribebd{color:#000; font-size:18px; background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.png") -250px 0 no-repeat; height:32px; line-height:32px; padding-left:45px; width:61px;}
+.subscribeb:hover{ text-decoration: none; color:#fff; background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.png") 0 0 no-repeat;}
+.subscribebd:hover{color:#fff; font-size:18px; background:url("http://star.usportnews.com/statics/images/stars/star_info/ding.png") -250px 0 no-repeat; height:32px; line-height:32px; padding-left:45px; width:61px;}
+
+.perShare{ clear:both; padding:10px 0; height:20px; border-bottom:1px solid #b5b5b6;}
+.perShare a{ margin:0; margin-right:8px;}
+.dingNum{  font-size:16px;}
+.dingNum span{ padding:0 15px;}
+.dingNum .person_sub{ color:#2EA7E0; padding: 0;}
+
+.perInfo{ width:384px; font-size:14px; margin-top:15px;}
+.perInfo li{ float:left; width:192px; display:inline; height:23px; line-height:23px; border-bottom:1px dashed #e5e6e6; overflow: hidden; }
+.perInfo a{ color:#e60012;}
+
+.teamList{ border:1px solid #e7e7e7;moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; width:98px; text-align:center; margin-left:20px; margin-top:15px;}
+.teamTitle{ height:22px; line-height:22px; background:#efefef; text-align:center; border-bottom:1px solid #dcdddd;}
+.teamMain{ width:98px; height:98px; line-height:98px; font-family:Arial; font-size:66px; color:#e53e49;overflow: hidden;}
+.teamMain img{ width:75px; height:75px; margin-top:12px;}
+.teamMain a{text-decoration: none;}
+
+
+.preElse{border: 1px solid #cacbcb; background:#fff; padding:19px;}
+.preElseTitle{ border-bottom:1px solid #d6d6d6; height:32px; line-height:32px; color:#111111; font-size:16px;font-family: Microsoft YaHei;}
+.preElseTitle a{ color:#595757; font-size:14px;}
+
+
+.videoList ul{ margin-left:-20px; width:680px; overflow:hidden;}
+.videoList li{ float:left; display:inline; width:150px; margin-left:20px; margin-top:10px;}
+.imgList ul{ margin-left:-18px;}
+.imgList li{ width:152px; margin-left:18px;}
+.videoList li a{ display:block; margin-bottom:5px; color:#727171; line-height:160%;}
+.imgBox{ position:relative; width:150px; height:100px;}
+.imgList .imgBox{ width:152px; height:114px;}
+.videoIco{ position:absolute;  background:url("http://star.usportnews.com/statics/images/stars/star_info/video.png") no-repeat;top:50%; left:50%; width:45px; height:45px;  margin-left:-22px; margin-top:-22px; display:block;}
+.videoIco:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/videod.png") no-repeat;}
+.gameList{ padding:10px; text-align:center;}
+.gameListTab{ color:#595757;}
+.gameListTab th{ font-weight:normal; background:#dcdddd; height:20px; line-height:20px; text-align:center;}
+.gameListTab td{ height:32px; line-height:32px;}
+
+
+
+.pagePad{ padding:19px;}
+.pagesTitle{font-family:Microsoft YaHei; font-size:16px;text-align:center; height:30px;}
+.pagesTitle a{ float:left; display:inline; width:98px; height:28px; line-height:28px; color:#707070;border:1px solid #e1e1e1;moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; background:#efefef; margin-right:10px;}
+.pagesTitle a:hover{ background:#e53e48; color:#fff; border:1px solid #dc2c40; text-decoration: none;}
+.pagesTitle a.active{ background:#e53e48; color:#fff; border:1px solid #dc2c40;}
+
+.pageVideo ul{ margin-left:-15px; width:675px; overflow:hidden;}
+.pageVideo li{ float:left; display:inline; width:210px; margin-left:15px; margin-top:20px;}
+.pageVideo li a{ display:block;margin-bottom: 5px;color: #727171;line-height: 160%;}
+.imgBoxb{ width:210px; height:140px; position:relative;}
+
+.pageImg ul{ margin-left:-18px; width:678px;}
+.pageImg li{ width:208px; margin-left:18px;}
+.pageImg .imgBoxb{ width:208px; height:156px;}
+
+
+.shareMain .bshare-custom.icon-medium a{ padding:0; margin-right:8px;}
+.newCon{ clear:both;}
+.newList{ margin-top:20px;}
+.newImg{ width:200px;}
+
+.listTxt{ width:445px; color:#b5b5b6; position:relative;}
+.listTxt a{ color:#b5b5b6;}
+.listTxt p{ margin-top:5px;}
+.listTxtC{ height:75px; margin-bottom:5px; color:#898989;line-height:160%;}
+.listTxt a:hover{ color:#ce000c;}
+
+.listTxt .time{ background:none; padding:0px;}
+.listTxt .funBox { float:right; margin-top:-20px;}
+
+.plIco{ background:url("http://star.usportnews.com/images/stars/content/pl.gif") no-repeat; }
+.plIco:hover{background:url("http://star.usportnews.com/images/stars/content/pl_h.gif") no-repeat;}
+.shareIco{ background:url("http://star.usportnews.com/images/stars/content/share.gif") no-repeat;}
+.shareIco:hover{ background:url("http://star.usportnews.com/images/stars/content/share_h.gif") no-repeat;}
+
+.newTitle {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Microsoft Yahei;
+  padding-bottom: 5px; color:#3e3a39;
+}
+.listTxt .newTitle a{ color:#282625;font-family: Microsoft YaHei;}
+.news_commentBox{margin-left: -205px;}
+
+
+.listTxt .shareMore{ display:none; clear:both; position:absolute; right:0; top: 85px; margin-right: 15px;}
+.star_info_pic_tpl {display:none;}
+
+.popuPage .infoTitile{ width:100%;}
+.popuPage .infoTitile a{ padding:0 27px;}
+
+.popuList{ padding:19px;}
+.popuList ul{ margin-left:-26px; width:986px; overflow:hidden;}
+.popuList li{ float:left; display:inline; padding:9px; width:200px; border:1px solid #efefef; margin-left:26px;margin-bottom: 26px;}
+.popuImg{ display:block; width:200px; height:200px;}
+.popuName{ display:block; height:25px; line-height:25px; padding:10px 0;}
+.popuNamea{ display:inline-block; width:171px; text-align:center; color:#595757; font-size:22px;font-family:Microsoft YaHei;}
+.popuName .icoNum{ display:inline-block; margin:0; background:#b5b5b6; color:#fff;}
+.popuName .bgRed {background: #e53e48;}
+.subscribec{ background:url("http://star.usportnews.com/statics/images/stars/star_info/dingb.png") no-repeat; display:block; width:110px; height:30px; line-height:30px; padding-left:92px; font-size:18px;font-family:Microsoft YaHei; color:#000000;}
+.subscribec:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/dingb.png") -225px 0 no-repeat; color:#fff;text-decoration: none;}
+.subscribecd:hover{ background:url("http://star.usportnews.com/statics/images/stars/star_info/dingb.png") -451px 0 no-repeat; color:#fff;}
+.subscribecd{ background:url("http://star.usportnews.com/statics/images/stars/star_info/dingb.png") -451px 0 no-repeat; display:block; width:110px; height:30px; line-height:30px; padding-left:91px; font-size:18px;font-family:Microsoft YaHei; color:#595757;}
+.popuSort{ font-size:14px; color:#727171; margin-bottom:15px;}
+.popuSort span{ padding:0 12px;}
+
+.recomPage .sub_btn a{font-size: 14px;}
+.recomPage .popuList ul{ margin-left:-14px; width:974px;}
+.recomPage .popuList li{ width:160px; margin-left:14px; margin-bottom:18px;}
+.recomPage .popuImg{ width:160px; height:160px;}
+.recomPage .popuNamea{ font-size:18px; width:100%;}
+.recomPage .subscribec{ background-position:0 -47px; padding-left:76px;width:90px; height:25px; line-height:25px; font-size:14px;}
+.recomPage .subscribec:hover{ background-position:-225px -47px;}
+.recomPage .subscribecd:hover{ background-position:-451px -47px;}
+.recomPage .subscribecd{ background-position:-451px -47px; padding-left:71px;width:90px; height:25px; line-height:25px; font-size:14px;}
+
+
+
+
+.regTitle{ padding:16px 0 12px 0; height:32px; line-height:32px; color:#595757; font-size:20px;font-family:Microsoft YaHei; text-align:center;}
+.regTitle span{ display:inline-block; width:163px; text-align:center;}
+.regTitle .active{ color:#fff; background:url("http://star.usportnews.com/statics/images/stars/star_info/regT.png") no-repeat;}
+
+.floatBox{  height:65px; position:fixed; bottom:0; width:100%;}
+.floatBg{background:#000000;opacity: 0.5;filter:  alpha(opacity=50); ZOOM: 1; width:100%; height:100%;}
+.floatBoxa{ display:block;height:48px; line-height:48px; width:318px; margin:0 auto; text-align:center; border:1px solid #a52020; background:#e53e48; font-size:18px; color:#fff;font-family:Microsoft YaHei;moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; z-index:999; position:absolute; top:9px; left:50%; margin-left:-158px;}
+a.floatBoxa:hover{ background: #FF1D38;text-decoration: none;color: #fff;}
+
+.blackTopa{display:none; background:url("http://star.usportnews.com/statics/images/stars/star_info/top.png") 0 -64px no-repeat; width:51px; text-align:center; height:25px; padding-top:25px;font-family:Microsoft YaHei; font-size:18px; position:fixed; bottom:100px; right:100px; color:#727272;}
+.blackTopa:hover{background:url("http://star.usportnews.com/statics/images/stars/star_info/top.png") 0 0 no-repeat; color:#fff; text-decoration:none;}
+
+
+.color9{ color:#999;}
+
+.mm_openBox{ display:none;position:fixed;opacity: 0.7;-moz-opacity: 0.7;filter:alpha(opacity=70);background:#000; _background:none; top:0px; bottom:0; left:0; right:0;z-index:500;}
+.mm_loginBox{opacity: 0;-moz-opacity: 0;display:none;position:absolute; top:-25%; left:50%; margin-top:-187px; margin-left:-217px;background:#fff;width:435px; height:375px; border:1px solid #919191;moz-border-radius: 3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;font-family:Microsoft Yahei;z-index:999;line-height: normal;}
+.mm_logoTitle{height:40px; line-height:40px; background:#3d4b6b; padding:0px 10px; color:#fff;font-family:Microsoft YaHei; font-size:18px; overflow:hidden;}
+.mm_logoMain{ padding:15px 30px;}
+.mm_logoMain div{ margin-top:15px;}
+.mm_inputTxt{width:275px; height:32px; border:0 none; outline:none;}
+.mm_userName input,.mm_userPass input{ width:255px;moz-border-radius:2px;-khtml-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;background:url("http://star.usportnews.com/statics/images/stars/member/name.gif") 10px 8px no-repeat #f2f2f2;padding:6px 0px 6px 35px; height:20px; line-height:20px; margin-right:5px; border:0px;}
+.mm_userPass input{ background:url("http://star.usportnews.com/statics/images/stars/member/password.gif") 10px 8px no-repeat #f2f2f2;}
+.mm_regOk input,.mm_regOk a{height:32px; line-height:32px; color:#fff;width:120px; text-align:center; font-size:14px; display:inline-block;font-family:Microsoft Yahei; vertical-align:middle;moz-border-radius: 3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; margin-right:10px; cursor:pointer;border:0px;}
+.mm_loginBnt{ background:url("http://star.usportnews.com/statics/images/stars/member/loginbnt.gif") repeat-x;}
+.mm_regBnt{ background:url("http://star.usportnews.com/statics/images/stars/member/reg.gif") repeat-x;}
+
+.mm_loginElse{font-size:14px;border-top:1px solid #f1f1f1;}
+.mm_loginElse p{ padding:10px 0px;}
+.mm_loginElse a,.mm_loginElse input{padding-left:60px; width:117px; height:39px; line-height:39px; color:#ce000c; display:inline-block; cursor:pointer; float: left;}
+.mm_loginElsea{ background:url("http://star.usportnews.com/statics/images/stars/member/logina.gif") no-repeat; margin-right:20px;}
+.mm_loginElseb{ background:url("http://star.usportnews.com/statics/images/stars/member/loginb.gif") no-repeat;}
+.mm_errorMsg{ color:#ce000c; padding:0px 10px; font-size:12px;}
+
+
+.main{ display:block;}
+.userInfo{width: 743px;float: left;border: 1px solid #f5f5f5;border-top: 0 none;min-height: 610px; overflow:hidden;}
+.main .popuList{ padding:19px 21px;}
+.main .popuList ul{ width:757px;}
+.main .popuList li{ width:140px; padding:11px;}
+.main .popuNamea{ font-size:16px;}
+.subscribee{ background:url("http://star.usportnews.com/statics/images/stars/star_info/dingb.png") 0 -97px no-repeat; display:block; width:76px; height:22px; line-height:22px; padding-left:65px; font-size:14px;font-family:Microsoft YaHei; color:#000000;}
+.subscribee:hover{background-position:-225px -97px; color: #fff;text-decoration: none;}
+.subscribeed{background-position:-451px -97px;}
+.subscribeed:hover{background-position:-451px -97px;}
+
+
+.tooptip{color: red;text-align: center;font-size:14px;}
+
+
+
+#confirmOverlay{ border:1px solid #b5b5b6; height:118px; padding-top:30px;moz-border-radius: 2px;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; text-align:center; color:#000000; font-size:16px; font-family:Microsoft YaHei; margin:0 auto; position:fixed; left:50%; top:50%; margin-left:-114px; margin-top:75px; background:#fff;}
+#confirmOverlay .confirmBox p{ margin-bottom:45px;padding: 0 15px 0 15px;}
+#confirmOverlay .confirmBox a{moz-border-radius: 2px;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; border:1px solid #9fa0a0; background:#f7f8f8; color:#000000; padding:2px 15px; margin:0 20px;}
+#confirmOverlay .confirmBox a:hover{ border:1px solid #c92828; background:#e53e48; color:#fff; text-decoration:none;}
+
+.ban .box{ position:relative; height:100px;}
+.setMain{ position:absolute; right:0; bottom:-60px;background:#0a3e91;width:60px; padding:5px;}
+.setMain a{ color:#fff; display: block; line-height:24px; margin:5px 0;}
+.setMain a.setSz{ padding-left: 15px;padding-bottom: 7px;color:#fff; font-family: Microsoft YaHei; font-size:16px; float:left; display:block; width:25px; height:25px; line-height:25px; margin-right:30px;}
+
+
+.results{ width:662px; padding:18px;border:1px solid #cecfcf; color:#727171; background:#fff;font-family: Microsoft YaHei;}
+.results .search_head { padding: 0 18px;margin: -19px -19px 18px;line-height: 41px;background-color: rgb(15,75,163);color: #fff;font-size: 16px; }
+.results .perName{ padding:0;height:60px;}
+.starDate{ width:450px; margin-left:30px;}
+.perName .fl p{ font-size:16px;}
+
+.results .perInfo{ clear:both; border-top:1px dashed #e5e6e6; padding:10px 0;}
+.results .perInfo li{ border:0 none;}
+.line{ height:0; border-top:1px solid #c3c3c4; clear:both;}
+
+.searcha{ color:#000000; font-size:16px;}
+.searchb{color:#727171; font-size:14px;}
+.searchno{ padding-left:210px; padding-top:40px; line-height:250%;}
+
+
+.search{border-radius: 16px; width:143px; padding:0 7px; height:24px; line-height:24px; background:#efefef; margin-top:65px;}
+.search input{ border:0 none; vertical-align:middle; outline:none; }
+.searchTxt{ width:120px; padding-left:7px;background:#efefef;}
+.searchBnt{ background:url("http://star.usportnews.com/statics/images/stars/star_info/search.jpg") 0 5px no-repeat; width:16px; height:24px;cursor: pointer;}
+
+
+.info_Module.qqun .title_a5 { background-image:url("http://star.usportnews.com/statics/images/stars/star_info/speaker.png"); }
+.info_Module.qqun .infoLook { background:url("http://star.usportnews.com/statics/images/stars/star_info/qqqun.png") right 41px no-repeat; padding-top: 29px !important; }
+.info_Module.qqun .infoLook p { font:normal 16px/1.6 sans-serif; }
+.info_Module.qqun .infoLook .join { margin-top: 40px; text-align: center; }

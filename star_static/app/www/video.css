@@ -1,0 +1,172 @@
+.videoEvent{ background:#f7f7f7;  height:90px; padding:5px 0; border-left:1px solid #bbbbbb;border-right:1px solid #bbbbbb; width:998px;}
+.videoEventT{ padding:0 10px; width:25px; text-align:center; font-size:18px; color:#eb6100;font-family:Microsoft YaHei; line-height:120%; font-weight:bold;}
+.silderEvent{ width:953px; float:left; position:relative;}
+.silderEventM{ width:900px; margin:0 auto;}
+.silderEventM .teamList{ margin-top:5px;}
+.silderEventM .eventList{ width:200px; float:left; display:inline; margin-left:20px; margin-top:0px; padding:0;color:#666666; background:none;}
+.silderEventM .teamName a{ color:#666666; display:block;}
+.silderEventM .eventList .score{ margin-top:0;}
+.silderEventM li{ float:left; display:inline;}
+.silderEventM .eventList .score{ width:90px;}
+.silderEventM .eventAn{ margin-left:5px;}
+.silderEventM .eventNext .eventTitle,.silderEventM .eventEnd .eventTitle{ border-bottom:1px solid #d5d5d5;}
+.silderEventM .eventLive .eventTitle{ border-bottom:1px solid #ff8f17;}
+.silderEventM .eventAn{ display:block; font-size:12px; font-weight:normal; margin-top:0; }
+.silderEventM .eventAn a{margin:0 auto;}
+
+.silderPage a{ display:block; width:12px; height:19px; position:absolute;}
+.silderPage .pre{ background:url(images/pre2.png) no-repeat; left:15px; top:35px;}
+.silderPage .next{ background:url(images/pre2.png) -27px 0 no-repeat; right:15px; top:35px;}
+
+
+/*轮播*/
+.t_d_body{ background:#fdfdfd; font-family:"Microsoft YaHei";}
+.t_d_container{ width:1000px; margin:0 auto; overflow:hidden; text-align:left;font-family:"Microsoft YaHei";}
+.t_d_container .tid_mian{ margin-top:25px;}
+.t_d_container .tid_mian a{ display:block;}
+.t_d_container .tid_mian a:hover{ color:#eb6100;}
+.t_d_container .tid_hb_l{ width:675px; float:left; overflow:hidden;}
+.t_d_container .slidebox{width:675px; height:361px; overflow:hidden; position:relative;}
+.t_d_container .slidebox ul.items{float:left; background:none; list-style:none; padding:0px; margin:0px;}
+.t_d_container .slidebox ul.items a{ height:361px;}
+.t_d_container .slidebox ul.items li{ float:left; background:none; list-style:none; padding:0px; margin:0px; position:relative;}
+.t_d_container .slidebox ul.items li .slide_tit{ position:absolute; left:0px; bottom:0px; width:100%; height:40px;color:#FFF; font-size:18px; line-height:40px; text-decoration:none;background:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter:alpha(opacity=70); opacity: 0.7; text-indent:10px;}
+.t_d_container .slide_bar{ position:absolute; right:0px; bottom:0; height:40px;}
+.t_d_container .slide_bar li{display:inline-block;float:left; width:10px; height:10px; background-color:#c8c5c5; text-indent:-99999px; margin:15px 10px 0px 0px; border-radius:10px; cursor:pointer;}
+.t_d_container .slide_bar li.active{ background:#fff;}
+.t_d_container .tid_hb_r{ float:right; width:325px; overflow:hidden; height:361px;}
+.t_d_container .tih_h3{ height:30px; position:relative; line-height:30px; font-size:16px; color:#fff; font-weight:normal; font-family:"Microsoft YaHei"; background:#595656; text-indent:10px;}
+.t_d_container .tih_h3 .t_h_more{ position:absolute; right:5px; top:0; font-size:12px; color:#fff; text-decoration:none;}
+.t_d_container .tih_info{ background:url(images/tid_bgco.png) repeat 0 0; height:331px; width:305px; padding:10px;}
+.t_d_container .tih_info li{ line-height:normal; margin-bottom:12px; position:relative;zoom:1; *display:inline;}
+.t_d_container .tih_digi{ width:19px; height:19px; display:inline-block; position:absolute; left:0; top:0; line-height:normal; background:#bebebe; text-align:center;-moz-border-radius:50%;-webkit-border-radius:50%; border-radius:50%; color:#fff;}
+.t_d_container .tih_red{background:#eb6100;}
+.t_d_container .tih_txt{ line-height:20px; height:20px; overflow:hidden; padding-left:25px; font-size:14px; color:#333; font-family:"宋体";}
+.t_d_container .tih_show{ height:82px; overflow:hidden; padding-left:25px;}
+.t_d_container .tih_pics{ float:left; width:110px;}
+.t_d_container .t_show_txt{ float:left; margin-left:10px; width:150px; }
+.t_d_container .t_show_txt a{font-family:"Microsoft YaHei"; font-size:14px; line-height:22px; height:67px; overflow:hidden;}
+.t_d_container .t_show_txt span{ color:#bcbcbc; font-size:12px; font-family:"宋体";}
+.t_d_container .tid_c_left{ float:left; width:675px; margin-right:25px; overflow:hidden;}
+.t_d_container .tid_h3{ height:50px; position:relative; line-height:50px; font-size:24px; color:#000; font-weight:normal; font-family:"Microsoft YaHei"; border-top:1px solid #eb6100;}
+
+
+.mainBox{ border-top:1px solid #eb6100; background:#f7f7f7; padding:15px; width:970px;}
+.mainTag{ width:327px; height:303px; overflow:hidden; font-family:Microsoft YaHei;}
+.columnsTitle{ font-size:20px; color:#eb6100;}
+.mainTagC{ height:100px; overflow:hidden; margin:16px 0;}
+.mainTagC li{ display:inline; margin-right:15px;}
+
+.mainBox .sportvideo{ width:327px; overflow:hidden;}
+.mainBox .sportvideo ul{ width:345px; margin-left:-15px;}
+.mainBox .sportvideo li{ width:156px; height:150px; margin-bottom:5px;margin-left:15px; margin-top:0;font-family:SimSun;}
+
+.mainVideo{ width:287px; height:303px; overflow:hidden; margin:0 14px; display:inline; position:relative;}
+.mainVideo a{ display:block;}
+.videoTitle{ position:absolute; bottom:0; color:#fff; font-size:16px;font-family:Microsoft YaHei; height:40px; line-height:40px; overflow:hidden; width:267px; padding:0 10px;background:#000;opacity: 0.7;filter:  alpha(opacity=70);}
+.videoTitle:hover{ color:#fff;}
+.videoIcoB{ background:url(images/videoicob.png) no-repeat; width:58px; height:58px; position:absolute; top:50%; left:50%; margin-top:-29px;  margin-left:-29px;}
+
+
+/*视频列表*/
+.listVideo{ margin-left:-15px; width:1015px; overflow:hidden;}
+.listVideo li{ width:231px; float:left; display:inline; margin-left:15px; margin-top:15px;}
+.listVideo li a{ display:block; line-height:160%;}
+.listVideo .listVideoImg{ position:relative; border:1px solid #fff; padding:3px; width:223px; height:149px; margin-bottom:3px;}
+.listVideo .listVideoImg:hover{ border:1px solid #e6e6e6; }
+.listVideo .videoIcoM,.videoIcoM{ background:url(images/videoicom.png) no-repeat; width:27px; height:27px; position:absolute; left:12px; bottom:12px; display:block;}
+
+.listPicture .listVideo .listVideoImg{ width:223px; height:167px;}
+
+
+/*视频播放*/
+.titleL{ font-family:Microsoft YaHei; font-size:24px; color:#333; margin-bottom:10px;}
+.videoSilder{}
+.playvideo{ background:#2f2f2f; padding:9px; position:relative;}
+.playvideo img{ width:674px; height:361px; border:1px solid #3a3a3a;}
+.playAn{ background:url(images/videoicob.png) no-repeat; width:58px; height:58px; position:absolute; top:50%; left:50%; margin-left:-29px; margin-top:-29px;}
+
+.related{ width:306px; background:#494949; height:381px;}
+.relatedTitle{ color:#fff; font-size:18px;font-family:Microsoft YaHei; border-bottom:1px solid #525252; height:47px; line-height:47px; padding:0 10px;}
+
+
+.videoTagCon{ width:960px; margin:0 auto; height:24px; line-height:24px; padding:5px 20px; font-family:Microsoft YaHei; background:#ececec;}
+.tagIco li{ float:left; margin-right:50px; height:24px; width:auto;}
+.tagIco a,.tagIco span{ padding-left:23px; width:auto;cursor:pointer; display:block;height:24px; float:left; color:#666;} 
+.tagIco a:hover{ color:#eb6100;}
+.zan{background:url(images/tagIco.png) 0px -53px no-repeat;}
+.zan:hover{background:url(images/tagIco.png) 0px 2px no-repeat;}
+.cai{background:url(images/tagIco.png) 0px -75px no-repeat;}
+.cai:hover{background:url(images/tagIco.png) 0px -25px no-repeat;}
+.tagIco .sc{background:url(images/tagIco.png) 0px -130px no-repeat; padding-left:20px;}
+.pl{background:url(images/tagIco.png) 0px -105px no-repeat;}
+.ml{background:url(images/tagIco.png) 0px -153px no-repeat;}
+.tagIco .bf{background:url(images/tagIco.png) 0px -188px no-repeat; padding-left:15px;}
+.tagIco .shareIco{background:url(images/tagIco.png) 0px -218px no-repeat; padding-left:15px;}
+.tagMobel{ position:relative;}
+.codeOpen{ width:405px; position:absolute; top:30px; left:0px;font-family:SimSun; font-size:12px; line-height:180%; display:none;}
+.codeOpen p{ padding:2px 0px; margin:0;}
+.codeOpen .codeTitle{ font-size:14px;font-family: Microsoft YaHei; border-bottom:1px solid #2e2e2e; padding-bottom:5px; margin:0;}
+.codeOpen .codeTitle2{ border-top:1px solid #4d4d4d; padding-top:5px;}
+.looking{ color:#a1a0a0;}
+.jiaoTop{ background:url(images/jiao.gif) right no-repeat; width:55px; height:8px;}
+.codeCon{moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;background:#3e3e3e; width:385px; padding:10px; color:#fff; }
+.codeCon_l{ width:270px; float:left;}
+.codeCon_r{ width:100px; float:right; text-align:center;}
+.codeCon_r img{opacity:1;-moz-opacity:1;filter:alpha(opacity=100);background:#000;}
+.codeCon_r a{ display:block; background:url(images/down.png) no-repeat; width:95px; height:22px; font-size:0px; margin-top:10px;}
+
+.tagCon{ width:1000px; margin:0 auto; color:#666666;background:#fafafa; font-size:12px; padding-top:10px; line-height:220%;}
+.tagCon b{ font-weight:normal; color:#a8a8a8;}
+.tagCon a{color:#666;}
+.tagCon a:hover{color:#ce000c;}
+.tagCon li{ margin-top:5px;} 
+.tagCon li span{ padding-right:10px; padding-right:50px;}
+
+.mainTitle{ background:url(images/videoTico.gif) no-repeat;font-family: Microsoft YaHei;padding-left:40px; height:32px; line-height:32px;font-size:22px; color:#ee8600; border-bottom:2px solid #e6e6e6;}
+.infoConList{ overflow:hidden;}
+.infoConList li{width:150px; height:135px; overflow:hidden;line-height:150%; float:left; display:inline; border-top:1px dotted #cccccc; padding:20px 8px; margin-top:-1px;}
+.infoConList li a{ display:block;}
+.infoConList .videoPic{width:150px;height:101px; background:url(images/picbg.gif) no-repeat;}
+.infoConList li span{ display:block; margin-top:3px;}
+.infoConList .showIco {margin-top: -138px;width: 147px;height: 98px;}
+.infoConList .videoIco{ margin-top:65px;}
+
+.videoSLeft{ width:675px;}
+.videoSLeft .titleBig,.titleBig{ color:#000000; font-size:18px; height:35px; line-height:35px; padding:5px 0;font-family:Microsoft YaHei; border-top:1px solid #eb6100;}
+.titleBig .more{ line-height:50px; margin-top:-25px;}
+.titleBig .more:hover{ text-decoration:none;}
+.highlights a{ display:block;}
+.highlights ul{ margin-left:-18px; width:693px; overflow:hidden;}
+.highlights li{ float:left; width:155px; display:inline; margin-left:18px; height:127px; overflow:hidden; margin-bottom:10px;}
+.highlights .showVideo{position:relative;}
+.highlights .videoIcoM{bottom:5px; left:5px;}
+
+.videoSRight{ width:300px; overflow:hidden;}
+
+
+
+
+.RelatedList{ height:310px; overflow:hidden; text-align:left; padding:10px 10px 0 10px; width:286px;}
+.RelatedList li{ background:url(images/infot.gif) repeat-x; height:62px; padding:8px 0px; width:286px; text-align:left; float:left;}
+.RelatedList .videoPic{ position:relative;}
+.RelatedList li .fl{ width:93px; height:62px; display:inline;}
+.RelatedList li .RelatedTxt{ width:175px; color:#8b8989; font-size:14px; float:left; margin-left:10px; line-height:145%;}
+.RelatedList li .RelatedTxt a{color:#fff; display:block; height:40px; margin-bottom:5px;font-family: Microsoft YaHei;}
+.RelatedList li .RelatedTxt a:hover{ color:#fff;}
+.RelatedList li .RelatedTxt span{font-family:Arial;font-size:12px; display:block; color:#8b8989;}
+
+
+.RelatedList .videoIco{ bottom:5px; left:5px;}
+
+
+/*直播*/
+.liveBox{font-family:Microsoft YaHei; margin-left:-35px; width:1035px; overflow:hidden;}
+.liveList{ float:left; display:inline; background:#f5f5f5; width:478px; padding-left:4px; height:214px;border-radius:4px; margin-left:35px; margin-bottom:35px;}
+.liveListT{ color:#000000; font-size:24px; text-align:center; border-bottom:1px solid #fbfbfb; height:50px; line-height:55px; overflow:hidden;}
+.liveMain{ border-top:1px solid #e9e9e9;}
+
+.liveLogo{ border:1px solid #ecebeb; margin:14px;border-radius:4px; overflow:hidden; background:#fff;}
+.liveInfo{ width:305px; overflow:hidden; color:#666; margin-top:14px;}
+.liveBnta{ display:block; width:78px; height:24px; line-height:24px; text-align:center; color:#fff; background:#eb6100;border-radius:2px;}
+.liveBnta:hover{ color:#fff; background:#d30000; text-decoration:none;}
