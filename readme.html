@@ -1,0 +1,78 @@
+<html>
+<head>
+<title></title>
+<style type="text/css">
+body { padding: 1em; background-color: #f7f7f7; font-family: sans-serif; }
+h1, h2, h3 { font-weight: normal; margin: 1em 0; }
+p { margin: 0 0 1em; line-height: 1.5em; }
+ul { margin: 0; padding: 0; }
+li { margin: 0 1.5em; padding: 0; }
+a { text-decoration: none; color: #009900; border-bottom: 1px dotted #009900; padding-bottom: 1px; }
+.wrap { width: 750px; margin: 0 auto; overflow: hidden; }
+</style>
+<script type="text/javascript" src="sea.js" id="seajsnode"></script>
+<script type="text/javascript">
+seajs.use(['jquery'], function($){
+	$(function(){
+		
+		// seajs.use([
+		// 	"app/umeditor/themes/default/css/umeditor.min.css",
+		// 	"app/umeditor/third-part/jquery.min.js", 
+		// 	"app/umeditor/umeditor.min.js", 
+		// 	"app/umeditor/umeditor.config.js"], function(){
+		// 		var um = UM.getEditor('myEditor');
+		// });
+
+		seajs.use('touch', function(touch){
+			// console.log(touch);
+		});
+
+		// seajs.use('audioplayer', function(audio){
+		// 	audio.createAll();
+		// });
+
+		// seajs.use('uploader', function(h5uploader){
+		// 	var uploader = h5uploader.create({
+		// 		auto: true,
+		// 	    pick: { id:'#picker', multiple:true }
+		// 	});
+		// });
+
+	});
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+	<h1>前端框架</h1>
+	<p>git库地址： <a href="https://gitlab.usport.cc/develop/static" target="_blank">git@gitlab.usport.cc:develop/static.git</a></p>
+	<p>git库对应测试域名： <a href="http://static.usport.cc" target="_blank">http://static.usport.cc</a></p>
+	<h2>框架结构</h2>
+	<ul>
+		<li><p>sea.js  框架入口，模块加载器。</p></li>
+		<li><p>base/  前端基础库。</p></li>
+		<li><p>module/  自定义模块。根据业务需求，将常用功能封装成CMD模块，供全局调用。</p></li>
+		<li><p>app/  产品目录。每个子目录对应一个产品，包括CSS文件、JavaScript文件、图片资源文件三类。</p></li>
+	</ul>
+	<h2>技术方案</h2>
+	<ul>
+		<li><p><a href="http://seajs.org/docs/" target="_blank">Sea.js</a> 前端模块化加载框架</p></li>
+		<li><p><a href="http://gulpjs.com" target="_blank">Gulp.js</a> 前端自动化构建</p></li>
+		<!-- <li><p><a href="https://github.com/guilipan/gulp-seajs-transport" target="_blank">gulp-seajs-transport</a> 模块依赖提取</p></li> -->
+		<li><p><a href="https://github.com/terinjokes/gulp-uglify/" target="_blank">gulp-uglify</a> 代码压缩</p></li>
+		<li><p><a href="http://github.com/wearefractal/gulp-concat" target="_blank">gulp-concat</a> 代码合并</p></li>
+	</ul>
+	<h3>基础库</h3>
+	<ul>
+		<li><p><a href="http://jquery.com/" target="_blank">jQuery.js</a> 前端基础库</p></li>
+		<li><p><a href="http://v3.bootcss.com/" target="_blank">bootstrap</a> Bootstrap UI</p></li>
+		<li><p><a href="http://zeptojs.com/" target="_blank">zepto.js</a> 移动平台基础库</p></li>
+		<li><p><a href="http://touch.code.baidu.com/" target="_blank">touch.js</a> 移动平台事件库</p></li>
+		<li><p><a href="" target="_blank">UMeditor</a> Web编辑器</p></li>
+		<li><p><a href="https://github.com/fex-team/webuploader" target="_blank">WebUploader</a> 文件上传组件</p></li>
+		<li><p><a href="https://github.com/kolber/audiojs" target="_blank">audio.js</a> 音频播放组件</p></li>
+	</ul>
+</div>
+
+</body>
+</html>
