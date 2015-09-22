@@ -1,0 +1,11 @@
+define("mobile/mtouch/home/1.0.0/home_s",["zepto","swipejs/2.0.1/swipe_min"],function($){
+ var b=$("zepto"),c=$("swipejs/2.0.1/swipe_min"),e={},f=b(".J-panic-countdown"),g=f.data("nowtime"),h=f.data("endtime");
+ e.slider=function(){var a=document.getElementById("slider-nav").getElementsByTagName("li");a[0].className="on";c.create(document.getElementById('slider'),{auto: 3e3,speed:500,continuous: !0,callback: function(pos){var c=a.length,d=pos;for(2===c&&d>=2&&(d=pos-2);c--;)a[c].className=" ";a[d].className="on"}})},
+ b("#keywords").focus(function(){b(".hot-search-box").addClass("search-isfocus")}).blur(function(){setTimeout(function(){b(".hot-search-box").removeClass("search-isfocus")},100)}),
+ e.countdown=function(a,b,c,d,e){var f=a;if(!b||""===b||!c||""===c)return!1;b=new Date(b.replace(/-/g,"/")),c="string"==typeof c?new Date(c.replace(/-/g,"/")):c;var g=c.getTime(),h=b.getTime(),i=setInterval(function(){g+=1e3;var a,b,c,j,k="",l=parseInt((h-g)/1e3,10);a=parseInt(l/3600/24,10),b=parseInt(l/3600%24,10),c=parseInt(l/60%60,10),j=parseInt(l%60,10),0>j&&(clearInterval(i),a=b=c=j=0,"function"==typeof e&&e(f)),k=d.replace("{d}",10>a?"0"+a:a).replace("{h}",10>b?"0"+b:b).replace("{m}",10>c?"0"+c:c).replace("{s}",10>j?"0"+j:j),f.html(k)},1e3)},
+b(".more-loading").click(function(){var a=b("#J-hotbuy-more").text();return b("#J-hotbuy-more").remove(),b(".more-loading").hide(),b(".leaderboard .products-list").append(a),!1}),
+e.cookie=function(){b(".welcome-app-close").click(function(){var date = new Date();date.setTime(date.getTime() + 7*24*3600*1000);document.cookie = "client_app2=no-show;expires=" + date.toGMTString() + " ;path=/";b(".welcome-app-download").css("display","none");b(".m-footer").css("padding-bottom","0px")});var _cookie = document.cookie;if( !(_cookie.indexOf('client_app2') >= 0) ){b('.welcome-app-download').css('display' , 'block');b(".m-footer").css("padding-bottom","46px")}},
+ e.slider(),
+ e.countdown(f,h,g,"<span>{d}</span><span>{h}</span><span>{m}</span><span>{s}</span>",function(){})
+ e.cookie()
+});

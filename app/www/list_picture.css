@@ -1,0 +1,9 @@
+/*图库*/
+.listVideo{ margin-left:-15px; width:1015px; overflow:hidden;}
+.listVideo li{ width:231px; float:left; display:inline; margin-left:15px; margin-top:15px;height:216px; overflow:hidden; }
+.listVideo li a{ display:block; line-height:160%;}
+.listVideo .listVideoImg{ position:relative; border:1px solid #fff; padding:3px; width:223px; height:149px; margin-bottom:3px;}
+.listVideo .listVideoImg:hover{ border:1px solid #e6e6e6; }
+.listVideo .videoIcoM,.videoIcoM{ background:url(images/videoicom.png) no-repeat; width:27px; height:27px; position:absolute; left:12px; bottom:12px; display:block;}
+
+.listPicture .listVideo .listVideoImg{ width:223px; height:167px;}

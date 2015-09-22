@@ -1,0 +1,26 @@
+.signin { min-height: 670px; }
+.signin .head { background-color: #fff; }
+.signin .head a { text-decoration: none; }
+.signin .head h1 { padding-left: 230px; width: 770px; margin: 0 auto; background: url("images/logo.png") left center no-repeat; height: 90px; font: normal 24px/90px "Microsoft Yahei", sans-serif; color: #eb6100; }
+.signin .main { padding-left: 276px; width: 724px; margin: 40px auto; background-color: #fdfdfd; }
+.signin .main .signinform { border-bottom: 1px solid #f9f9f9; margin-bottom: 15px; }
+.signin .main .signinform .control { overflow: hidden; margin-bottom: 20px; }
+.signin .main .signinform .control label { font: normal 16px/36px sans-serif; float: left; width: 70px; text-align: right; }
+.signin .main .signinform .control .username, .signin .main .signinform .control .password, .signin .main .signinform .control .seccode { width: 260px; height: 36px; font: normal 14px/36px sans-serif; border: 1px solid #ededed; border-radius: 3px; padding: 0 5px; }
+.signin .main .signinform .control .username.seccode, .signin .main .signinform .control .password.seccode, .signin .main .signinform .control .seccode.seccode { width: 160px; }
+.signin .main .signinform .control .seccodeimg { width: 90px; height: 36px; margin-left: 5px; vertical-align: -13px; }
+.signin .main .signinform .control .tip { font: normal 14px/36px serif; color: #c0c0c0; }
+.signin .main .signinform .control .remember, .signin .main .signinform .control .submit { margin-left: 70px; }
+.signin .main .signinform .control .submit { width: 107px; height: 40px; background-color: #eb6100; color: #fff; border: none; outline: none; border-radius: 3px; font-size: 15px; font-family: sans-serif; cursor: pointer; }
+.signin .main .signinform .control .submit:hover { background-color: #d92020; }
+.signin .main .signinform .control .signuplink { color: #da2021; text-decoration: none; }
+.signin .main .thirdpart { color: #898989; font: normal 14px sans-serif; }
+.signin .main .thirdpart .sign { width: 187px; height: 42px; display: inline-block; margin-right: 10px; }
+.signin .main .thirdpart .sign.qq { background: url("images/thirdsignin.png") 0 0 no-repeat; }
+.signin .main .thirdpart .sign.qq:hover { background-position: 0 -61px; }
+.signin .main .thirdpart .sign.weibo { background: url("images/thirdsignin.png") -196px 0 no-repeat; }
+.signin .main .thirdpart .sign.weibo:hover { background-position: -196px -61px; }
+
+.headerBg .jianju45, .headerBg .menu { display: none; }
+
+.hotLink { display: none; }

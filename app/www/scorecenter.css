@@ -1,0 +1,116 @@
+.scorecenter { margin: 30px auto; }
+.scorecenter .widget, .scorecenter .ad { margin-bottom: 25px; text-align: center; }
+.scorecenter .widget .widget-head { background-color: #fdfdfd; border-bottom: 1px solid #e8e8e8; }
+.scorecenter #ad_couple { margin: 0; }
+.scorecenter .link { height: 35px; background-color: #e7e7e7; }
+.scorecenter .link li { width: 25%; line-height: 35px; float: left; color: #898989; box-sizing: border-box; padding-left: 20px; }
+.scorecenter .link li a { color: #898989; height: 35px; display: inline-block; overflow: hidden; }
+.scorecenter .featured { background-color: #f6f6f6; position: relative; margin-bottom: 15px; font-family: "Microsoft Yahei"; }
+.scorecenter .featured > li { display: none; }
+.scorecenter .featured > li.end .info .m .state { color: #888; }
+.scorecenter .featured > li.active { display: block; }
+.scorecenter .featured .head { padding: 0 10px; height: 35px; overflow: hidden; text-align: center; background-color: #5a5a5a; text-align: center; }
+.scorecenter .featured .head .title { font: normal 15px/35px "Microsoft Yahei",sans-serif; color: #fff; margin: 0 5px; }
+.scorecenter .featured .head .time { font: normal 15px/35px "Microsoft Yahei",sans-serif; color: #fff; margin: 0 5px; }
+.scorecenter .featured .info { overflow: hidden; }
+.scorecenter .featured .info > div { float: left; }
+.scorecenter .featured .info .team { width: 230px; box-sizing: border-box; padding: 20px 0 20px 27px; }
+.scorecenter .featured .info .team img { height: 80px; width: 80px; border-radius: 50%; float: left; }
+.scorecenter .featured .info .team span { height: 80px; display: inline-block; float: left; width: 110px; font: bold 28px/80px "Microsoft Yahei",sans-serif; text-align: center; color: #eb6100; }
+.scorecenter .featured .info .team.r { padding: 20px 27px 20px 0; }
+.scorecenter .featured .info .team.r img, .scorecenter .featured .info .team.r span { float: right; }
+.scorecenter .featured .info .m { text-align: center; width: 215px; }
+.scorecenter .featured .info .m .vs { height: 55px; font: normal 16px/55px "Microsoft Yahei", sans-serif; }
+.scorecenter .featured .info .m .state { font: normal 20px "Microsoft Yahei",sans-serif; color: #eb6100; margin-bottom: 10px; }
+.scorecenter .featured .info .live img { border-radius: 4px; border: 1px solid #dedede; cursor: pointer; outline: none; }
+.scorecenter .featured .info .live img:hover { border-color: #eb6100; }
+.scorecenter .featured .link { width: 420px; margin: -45px auto 10px; background: none; }
+.scorecenter .featured .nav { height: 35px; line-height: 35px; background-color: #e7e7e7; }
+.scorecenter .featured .nav li { float: left; width: 322px; margin: 0; }
+.scorecenter .featured .nav li.prev { padding-left: 15px; text-align: left; }
+.scorecenter .featured .nav li.next { padding-right: 15px; text-align: right; }
+.scorecenter .featured .nav li a { color: #888; }
+.scorecenter .featured .live_entrance { position: absolute; font-size: 20px; color: white; font-family: 'Microsoft YaHei'; text-align: center; border-radius: 5px; line-height: 55px; padding: 0px 35px; min-height: 50px; z-index: 300; top: 145px; display: none; opacity: 1; background: rgba(0, 0, 0, 0.49804); }
+.scorecenter .featured .live_entrance img { padding-top: 15px; }
+.scorecenter .interact { padding: 0 51px 20px; overflow: hidden; text-align: center; font-family: sans-serif; color: #888; font-size: 13px; }
+.scorecenter .interact .r { background-color: #0586eb; height: 7px; border-radius: 3px; overflow: hidden; width: 477px; display: inline-block; }
+.scorecenter .interact .l { background-color: #eb6100; height: 7px; border-radius: 3px 0 0 3px; }
+.scorecenter .interact .thumb { background: url("images/thumb.png") left top no-repeat; display: block; width: 32px; height: 32px; cursor: pointer; }
+.scorecenter .interact .thumb:hover { background-position: left bottom; }
+.scorecenter .interact .thumb.r { background-position: right top; }
+.scorecenter .interact .thumb.r:hover { background-position: right bottom; }
+.scorecenter .interact .sup-left { float: left; }
+.scorecenter .interact .sup-right { float: right; }
+.scorecenter .matchtypes { position: absolute; margin-left: -80px; width: 60px; background-color: #5b5b5b; }
+.scorecenter .matchtypes li { height: 30px; text-align: center; color: #fff; cursor: pointer; font: normal 12px/30px "Microsoft Yahei", sans-serif; }
+.scorecenter .matchtypes li.hot { line-height: 1.4em; height: 60px; padding: 15px; background-color: #6b6b6b; box-sizing: border-box; }
+.scorecenter .matchtypes li.active { background-color: #eb6100; }
+.scorecenter .matchtypes li:hover { background-color: #eb6100; }
+.scorecenter .schedule { margin-bottom: 25px; position: relative; }
+.scorecenter .schedule .datepicker { background-color: #898989; overflow: hidden; width: 675px; border: none; outline: none; z-index: 2; }
+.scorecenter .schedule .datepicker li { background-color: #5a5a5a; box-sizing: border-box; border-left: 1px solid #898989; float: left; width: 20%; height: 50px; text-align: center; font: normal 18px/50px "Microsoft Yahei",sans-serif; position: relative; color: #bdbdbd; cursor: pointer; }
+.scorecenter .schedule .datepicker li span { font: normal 13px serif; position: absolute; font-family: "Microsoft Yahei",sans-serif; }
+.scorecenter .schedule .datepicker li .month { top: 8px; left: 33px; }
+.scorecenter .schedule .datepicker li .weekday { top: 8px; right: 29px; }
+.scorecenter .schedule .datepicker li .day { font: normal 20px/1em "Microsoft Yahei", sans-serif; width: 135px; left: 3px; bottom: 3px; color: #fff; text-align: center; }
+.scorecenter .schedule .datepicker li .sep { top: 10px; left: 40px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); -sand-transform: rotate(-45deg); }
+.scorecenter .schedule .datepicker .active { background-color: #f6f6f6; color: #ed6100; margin-top: 1px; position: relative; z-index: 12; font-family: "Microsoft Yahei",sans-serif; }
+.scorecenter .schedule .datepicker .active .day { color: #ed6100; }
+.scorecenter .schedule .body { margin-top: -1px; }
+.scorecenter .schedule .match { background-color: #f6f6f6; position: relative; border-top: 1px solid #ec6000; margin-bottom: 15px; }
+.scorecenter .schedule .match .head { padding: 0 10px; border-bottom: 1px solid #e7e7e7; height: 30px; overflow: hidden; text-align: center; }
+.scorecenter .schedule .match .head .title { font: normal 14px/30px "Microsoft Yahei",sans-serif; color: #ed6100; margin: 0 5px; }
+.scorecenter .schedule .match .head .time { font: normal 14px/30px "Microsoft Yahei",sans-serif; color: #000; margin: 0 5px; }
+.scorecenter .schedule .match .info { padding: 20px 36px 0; overflow: hidden; position: relative; }
+.scorecenter .schedule .match .info > div { width: 50%; box-sizing: border-box; float: left; }
+.scorecenter .schedule .match .info .team > * { float: left; }
+.scorecenter .schedule .match .info .team .name { height: 50px; width: 75px; font: normal 12px/50px "Microsoft Yahei",sans-serif; margin: 0 10px; }
+.scorecenter .schedule .match .info .team .score { height: 50px; width: 55px; font: bold 30px/50px "Microsoft Yahei",sans-serif; color: #ed6100; margin: 0 10px; text-align: center; }
+.scorecenter .schedule .match .info .team .logo { width: 50px; height: 50px; border-radius: 50%; border: none; }
+.scorecenter .schedule .match .info .team.r > * { float: right; }
+.scorecenter .schedule .match .info .team.r .name { text-align: right; }
+.scorecenter .schedule .match .info .state { width: 100%; margin: -52px auto 0; text-align: center; font: normal 18px/1 "Microsoft Yahei",sans-serif; color: #eb6100; }
+.scorecenter .schedule .match .info .live { width: 100%; margin: -23px auto 0; text-align: center; font-family: "Microsoft Yahei",sans-serif; }
+.scorecenter .schedule .match .info .live img { border-radius: 4px; border: 1px solid #dedede; cursor: pointer; outline: none; }
+.scorecenter .schedule .match .info .live img:hover { border-color: #eb6100; }
+.scorecenter .schedule .match .info .reminder { text-align: center; width: 100%; margin-top: -20px; display: none; }
+.scorecenter .schedule .match .info .reminder a { height: 25px; width: 75px; font: normal 13px/25px "Microsoft Yahei",sans-serif; color: #fff; background-color: #d50100; border-radius: 4px; display: inline-block; text-decoration: none; }
+.scorecenter .schedule .match .info .reminder a:hover { background-color: #eb6100; }
+.scorecenter .schedule .match .live_entrance { position: absolute; font-size: 20px; color: white; font-family: 'Microsoft YaHei'; text-align: center; border-radius: 5px; line-height: 55px; padding: 0px 35px; min-height: 50px; z-index: 300; top: 112px; display: none; opacity: 1; background: rgba(0, 0, 0, 0.49804); }
+.scorecenter .schedule .match .live_entrance img { padding-top: 15px; }
+.scorecenter .schedule .match .interact { padding: 10px 12px; font-family: "Microsoft Yahei",sans-serif; }
+.scorecenter .schedule .match .interact .r { width: 390px; height: 2px; border-radius: 0; }
+.scorecenter .schedule .match .interact .l { border-radius: 0; }
+.scorecenter .schedule .match .interact .thumb { display: inline-block; width: 32px; height: 32px; margin: 0 13px 0 0; }
+.scorecenter .schedule .match .interact .thumb.r { margin: 0 0 0 13px; }
+.scorecenter .schedule .match .interact .sup-left { margin-left: 34px; }
+.scorecenter .schedule .match .interact .sup-left > * { float: left; }
+.scorecenter .schedule .match .interact .sup-right { margin-right: 34px; }
+.scorecenter .schedule .match .interact .sup-right > * { float: right; }
+.scorecenter .schedule .match .interact .sup-left span, .scorecenter .schedule .match .interact .sup-right span { height: 32px; line-height: 32px; margin: 0 5px; }
+.scorecenter .schedule .match .link { height: 25px; background-color: #e7e7e7; padding: 0; }
+.scorecenter .schedule .match .link li { line-height: 25px; }
+.scorecenter .schedule .match .link li a { color: #666; }
+.scorecenter .schedule .match.end .head .title, .scorecenter .schedule .match.end .head .time { color: #888; }
+.scorecenter .schedule .match.end .state { color: #a4a4a4; }
+.scorecenter .schedule .match.end .name { color: #888; }
+.scorecenter .schedule .match.end .logo { filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ filter: gray; /* IE */ -webkit-filter: grayscale(100%); /* new webkit */ -webkit-filter: grayscale(1); /* old webkit */ }
+.scorecenter .schedule .match.end .live img { filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ filter: gray; /* IE */ -webkit-filter: grayscale(100%); /* new webkit */ -webkit-filter: grayscale(1); /* old webkit */ }
+.scorecenter .schedule .match.end .info .team .score { color: #888; }
+.scorecenter .schedule .match.notbegin { border-top: 1px solid #d40000; }
+.scorecenter .schedule .match.notbegin .head .title { color: #d50100; }
+.scorecenter .schedule .match.notbegin .state { color: #a4a4a4; }
+.scorecenter .schedule .match.notbegin .logo { filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ filter: gray; /* IE */ -webkit-filter: grayscale(100%); /* new webkit */ -webkit-filter: grayscale(1); /* old webkit */ }
+.scorecenter .schedule .match.notbegin .score, .scorecenter .schedule .match.notbegin .live { display: none; }
+.scorecenter .schedule .match.notbegin .reminder { display: block; }
+.scorecenter .schedule #body_scorecenter ul.timeline { display: none; }
+.scorecenter .schedule #body_scorecenter ul.active { display: block; }
+.scorecenter .loadmore { height: 30px; width: 100%; text-align: center; margin: 0 0 15px; background-color: #eb6100; font-size: 15px; display: block; }
+.scorecenter .loadmore a { height: 30px; line-height: 30px; color: #fff; }
+.scorecenter .twinker .box { width: 305px; overflow: hidden; margin: 15px 0 10px -5px; }
+.scorecenter .twinker .box li { width: 33.333%; height: 35px; float: left; padding: 0 0 5px 5px; box-sizing: border-box; }
+.scorecenter .twinker .box li a { background-color: #eb5f00; height: 30px; width: 100%; display: inline-block; font: normal 12px/30px "Microsoft Yahei", sans-serif; text-align: center; color: #fff; border-radius: 2px; }
+.scorecenter .twinker .top img { width: 100%; height: 160px; }
+.scorecenter .twinker .news { background: none; width: 100%; height: auto; overflow: hidden; }
+.scorecenter .twinker .news li { height: 30px; overflow: hidden; }
+.scorecenter .twinker .news a { font: normal 12px/30px serif; }

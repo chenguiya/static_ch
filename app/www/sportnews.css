@@ -1,0 +1,64 @@
+.sportnews { margin: 25px auto; /* right column */ }
+.sportnews ul, .sportnews li { overflow: hidden; }
+.sportnews .row { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 1000px; }
+.sportnews .col-left { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 675px; float: left; }
+.sportnews .col-right { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 300px; float: left; margin-left: 25px; }
+.sportnews .blank { height: 25px; clear: both; }
+.sportnews .ad { margin: 20px auto; text-align: center; }
+.sportnews .ad img { width: 100%; }
+.sportnews #ad_right1 { margin-top: 0; }
+.sportnews #ad_right2 { margin: 0 0 20px; }
+.sportnews .widget { width: auto; margin-bottom: 20px; }
+.sportnews .widget .widget-head { height: 46px; line-height: 46px; font-size: 18px; border-top: 1px solid #eb6100; border-bottom: 1px solid #e8e8e8; background-color: #fdfdfd; }
+.sportnews .widget .widget-head .links { display: inline-block; float: right; height: 46px; line-height: 46px; }
+.sportnews .widget .widget-head .links a { color: #333; font-size: 12px; margin-left: 15px; text-decoration: none; }
+.sportnews .widget .widget-head .links a:hover { color: #eb6100; }
+.sportnews .widget .widget-content { clear: both; min-height: 100px; }
+.sportnews .topslide { overflow: hidden; background-color: #eee; position: relative; height: 330px; width: 1000px; }
+.sportnews .topslide .slides { height: 330px; width: 3000px; position: absolute; }
+.sportnews .topslide .slides li { height: 330px; width: 1000px; padding: 25px; box-sizing: border-box; float: left; background: #eee url("images/tid_bgco.png") repeat; font-size: 14px; }
+.sportnews .topslide .slides li .title { font-size: 24px; margin-top: 0; margin-bottom: 20px; }
+.sportnews .topslide .slides li .thumb { float: right; height: 330px; width: 620px; margin: -25px -25px -25px 20px; }
+.sportnews .topslide .slides li .thumb img { width: 100%; height: 100%; }
+.sportnews .topslide .slides li p { color: #666; height: 168px; overflow: hidden; }
+.sportnews .topslide .slidenext, .sportnews .topslide .slidepre { font-size: 50px; color: #fff; position: absolute; top: 125px; cursor: pointer; opacity: 0.6; }
+.sportnews .topslide .slidenext:hover, .sportnews .topslide .slidepre:hover { opacity: 1; }
+.sportnews .topslide .slidenext { right: 0; }
+.sportnews .topslide .slideprev { left: 0; }
+.sportnews .topslide .indicator { position: absolute; bottom: 15px; left: 0; text-align: center; width: 380px; }
+.sportnews .topslide .indicator li { display: inline-block; }
+.sportnews .topslide .indicator li a { font-family: arial; border-radius: 50%; background-color: #bbbbbb; color: #fff; height: 24px; line-height: 24px; width: 24px; text-align: center; display: inline-block; margin: 0 3px; }
+.sportnews .topslide .indicator li.active a { background-color: #eb6100; }
+.sportnews .promotions { margin: 0 -15px; padding: 0; }
+.sportnews .promotions li { margin: 0; padding: 0 15px; list-style: none; width: 33.33%; height: 140px; float: left; box-sizing: border-box; position: relative; }
+.sportnews .promotions li img { width: 100%; height: 100%; }
+.sportnews .promotions li .title { position: absolute; bottom: 0; height: 30px; width: 313px; line-height: 30px; background-color: rgba(0, 0, 0, 0.5); color: #fff; opacity: 0.8; text-align: center; }
+.sportnews .promotions li .title:hover { text-decoration: underline; }
+.sportnews .stars { padding: 10px; background-color: #f0f0f0; overflow: hidden; }
+.sportnews .stars ul { margin: 0 -5px; padding: 0; }
+.sportnews .stars ul li { margin: 0; padding: 0 5px; float: left; width: 10%; height: 57px; box-sizing: border-box; position: relative; }
+.sportnews .stars ul li img { width: 100%; height: 100%; }
+.sportnews .stars ul li .transLayer { width: 53px; height: 55px; left: 5px; text-align: center; padding: 0 2px; line-height: 55px; overflow: hidden; color: #fff; }
+.sportnews .list { margin-top: 20px; }
+.sportnews .list li { font-size: 12px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed #cacaca; }
+.sportnews .list li .thumb { width: 155px; height: 115px; display: inline-block; float: left; margin-right: 15px; }
+.sportnews .list li .thumb img { width: 100%; height: 100%; }
+.sportnews .list li .title { margin: 0 0 10px; font-size: 16px; }
+.sportnews .list li .title a { text-decoration: none; }
+.sportnews .list li .title a.cat { color: #eb6100; }
+.sportnews .list li .intro { color: #888888; line-height: 2em; }
+.sportnews .list li .intro .fulltext { color: #eb6100; }
+.sportnews .list li .tag { color: #bcbcbc; }
+.sportnews .list li .tag a { color: #bcbcbc; text-decoration: none; }
+.sportnews .list li .tag a:hover { color: #eb6100; }
+.sportnews .list li .posttime { float: right; color: #c9caca; }
+.sportnews .list-more { height: 30px; background-color: #eb6100; text-align: center; margin-bottom: 15px; }
+.sportnews .list-more a { height: 30px; line-height: 30px; color: #fff; }
+.sportnews .channels ul { margin-top: 10px; }
+.sportnews .channels li { margin-bottom: 10px; padding-bottom: 10px; position: relative; border-bottom: 1px dashed #cacaca; overflow: hidden; }
+.sportnews .channels li:last-child { border-bottom: none; margin-bottom: 0; }
+.sportnews .channels .avatar { height: 70px; width: 70px; display: inline-block; float: left; margin-right: 10px; position: relative; }
+.sportnews .channels .avatar img { height: 100%; width: 100%; border-radius: 0; }
+.sportnews .channels .author { position: absolute; bottom: 0; width: 100%; height: 20px; background: rgba(0, 0, 0, 0.7); font: normal 12px/20px serif; color: #fff; text-align: center; }
+.sportnews .channels h4 { font: normal 12px/1.8 sans-serif; max-height: 3.6em; }
+.sportnews .channels .updatetime { font-size: 12px; color: #bcbcbc; position: absolute; bottom: 10px; line-height: 1em; }

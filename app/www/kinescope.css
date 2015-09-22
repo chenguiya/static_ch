@@ -1,0 +1,73 @@
+.mainLeft{ width:675px; overflow:hidden;}
+.mainLeft .widget{ width:100%;}
+.mainLeft .widget-head{ font-size:12px; width:100%; padding:0; height:50px; line-height:50px;}
+.mainLeft .widget-head span{ color:#eb6100; font-size:18px; padding:0 15px;}
+.mainLeft .widget-head a{ margin-left:10px;}
+.widget .widget-head .more, .more{ margin-top:-5px; font-size:30px; margin-right:10px;}
+
+.videoListB{background: #f7f7f7; }
+.videoListB .columnsTitle{ font-family:Microsoft YaHei}
+.videoListB ul{overflow:hidden; clear:both;}
+.videoListB li{ width:150px; height:145px; overflow:hidden; float:left; display:inline; margin-left:15px; margin-bottom:15px; line-height:160%;}
+.videoListB .sportvideoImg{ width:150px; height:100px;}
+.videoListB li a{ display:block; margin-bottom:5px;}
+.videoListB .videoIco{ left:5px; bottom:5px;}
+
+.mainRight{ width:300px; background:#fdfdfd;}
+.mainRight .widget-head{ color:#333333; border-bottom:1px solid #efefef;}
+.today{ font-family:Microsoft YaHei; text-align:center;}
+.today td{ height:35px; line-height:35px;}
+
+.game{ font-size:14px;}
+.game li{background:url(images/ico_dian.png) 5px 10px no-repeat; height:24px; overflow:hidden; padding-left:15px; margin-top:8px;}
+.mainRight .widget-head .fr{ font-size:12px;}
+.mainRight .widget-head .fr a{ display:inline-block; width:37px; height:25px; line-height:25px; text-align:center; margin-top:12px;}
+.mainRight .widget-head .fr a:hover{ background:#eb6100; color:#fff;}
+.mainRight .widget-head .fr .active{ background:#eb6100; color:#fff;}
+
+.tih_info{width:300px; padding:10px 0;}
+.tih_info li{ line-height:normal; margin-bottom:12px; position:relative;zoom:1; *display:inline;}
+.tih_digi{ width:19px; height:19px; line-height:19px; font-family:Arial; display:inline-block; position:absolute; left:0; top:0;background:#bebebe; text-align:center;-moz-border-radius:50%;-webkit-border-radius:50%; border-radius:50%; color:#fff;}
+.tih_red{background:#eb6100;}
+.tih_txt{ line-height:20px; height:20px; overflow:hidden; padding-left:25px; font-size:14px; color:#333; font-family:"宋体";}
+.tih_show{ height:82px; overflow:hidden; padding-left:25px;}
+.tih_show .tih_pics{ position:relative;}
+.tih_pics{ float:left; width:110px;}
+.t_show_txt{ float:left; margin-left:10px; width:150px; }
+.t_show_txt a{font-family:"Microsoft YaHei"; font-size:14px; line-height:22px; height:40px; margin-bottom:15px; overflow:hidden; display:block;}
+.t_show_txt span{ color:#bcbcbc; font-size:12px; font-family:"宋体";}
+.tid_c_left{ float:left; width:675px; margin-right:25px; overflow:hidden;}
+.tid_h3{ height:50px; position:relative; line-height:50px; font-size:24px; color:#000; font-weight:normal; font-family:"Microsoft YaHei"; border-top:1px solid #eb6100;}
+.tih_show a .videoIco {left: 5px; bottom:5px;}
+.tih_show a:hover .videoIco{ position:absolute; bottom:5px; left:5px; display:block; width:22px; height:22px;background:url(images/videoico.png) 0 -26px no-repeat;}
+
+
+.todayMain .mainLeft .widget-head{ border:0 none;}
+.kinTitle{ height:40px; line-height:40px; background:#595656;font-family:"Microsoft YaHei"; padding:0 10px; color:#fff; font-size:14px;}
+.kinTitle .fl{ font-size:20px;}
+.kinTitle .fr{font-family:"Microsoft YaHei";}
+.kinTitle .fr a{ color:#fff; width:60px; height:35px; line-height:35px; text-align:center; display:inline-block; margin-top:5px; margin-left:5px;}
+.kinTitle .fr a:hover{ background:#fff; color:#eb6100; text-decoration:none;}
+.kinTitle .fr a.active{background:#fff; color:#eb6100; text-decoration:none;}
+
+
+
+.calendar-title select{ border:0 none; background:none; color:#fff; float:left; vertical-align:middle; height:30px; line-height:30px;}
+.calendar-title select option{ color:#333; background-color: #fff;}
+.calendar-header{ background:#333333; color:#fff;  height:30px; line-height:30px; font-size:14px; padding:0 15px 0 10px;}
+.calendar-title span{ float:right;}
+.calendar-body{ background:#f7f7f7;}
+.calendar-body table{ width:100%; padding:0 ; margin:0;border-spacing:0;}
+.calendar-body table td{ width:43px; height:40px; text-align:center;border-spacing:2px; line-height:140%; cursor:pointer;}
+.widget .calendar-today{ background:#d1101b; color:#fff;}
+.widget .fullcalendar-day{ border:0 none;}
+.calendar-body table td font{ display:block; width:43px;}
+.fullcalendar-body th{ font-size:14px; font-weight:normal; background:#d9d9d9; width:31px; padding:0; border-right:1px solid #ffffff; border-top:1px solid #ffffff;}
+
+.mainRight .widget-headA{ background:#fff; border-bottom:0 none; padding:0;}
+.titleB{ font-size:14px; color:#eb6100;font-family:"Microsoft YaHei"; background:#f7f7f7; height:30px; line-height:30px; padding:0 10px;}
+.videoNew li{ display:inline;font-family:"Microsoft YaHei"; display:inline-block; line-height:240%;}
+.videoNew{ padding:10px;}
+
+.gameNone{ background:#f7f7f7; width:675px; height:100px; line-height:100px; text-align:center; color:#666666; font-size:18px;font-family:"Microsoft YaHei"; margin-bottom:30px;}
+.today_match{color:red;}

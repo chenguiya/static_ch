@@ -1,0 +1,21 @@
+.pictures { margin: 25px auto; }
+.pictures ul { overflow: hidden; }
+.pictures .widget { width: auto; margin-bottom: 25px; overflow: hidden; }
+.pictures .widget .widget-head { height: 56px; line-height: 56px; border-bottom: none; font-size: 24px; }
+.pictures .widget .widget-head .title:hover { text-decoration: none; outline: none; color: #eb6100; }
+.pictures .widget .widget-head .more { font: normal 24px/55px sans-serif; margin: 0; height: 55px; }
+.pictures .showcase { overflow: hidden; margin-bottom: 40px; }
+.pictures .showcase ul { font-size: 0; margin: 0 0 -1px -1px; width: 195px; float: left; }
+.pictures .showcase li { float: left; width: 193px; height: 85px; line-height: 1em; padding: 0 0 1px 1px; margin: 0; position: relative; }
+.pictures .showcase li img { width: 100%; height: 100%; }
+.pictures .showcase li .shadow { background: rgba(0, 0, 0, 0.7); position: absolute; width: 193px; height: 85px; display: none; top: 0; left: 1px; }
+.pictures .showcase .case { width: 611px; height: 343px; float: left; position: relative; padding-right: 1px; }
+.pictures .showcase .case img { width: 100%; height: 100%; }
+.pictures .showcase .case .title a { position: absolute; width: 591px; height: 38px; padding: 0 10px; font: normal 16px/38px sans-serif; bottom: 0; background-color: rgba(0, 0, 0, 0.6); color: #fff; }
+.pictures .showcase .case .title a:hover { color: #fff; text-decoration: underline; }
+.pictures .wall ul { font-size: 0; margin-left: -1px; }
+.pictures .wall li { float: left; width: 25%; height: 190px; box-sizing: border-box; padding: 0 0 1px 1px; margin: 0; line-height: 1em; position: relative; cursor: pointer; }
+.pictures .wall li .cover { position: absolute; z-index: 2000; width: 249px; height: 189px; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.7); color: #fff; display: none; font: normal 14px/1.4 "Microsoft Yahei",sans-serif; padding: 80px 20px 0; }
+.pictures .wall li img { width: 100%; height: 100%; }
+.pictures .ad { margin-bottom: 25px; text-align: center; }
+.pictures #ad_couple { margin: 0; }
