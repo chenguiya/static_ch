@@ -1,0 +1,236 @@
+*{ padding:0;  margin:0;}
+/*头部*/
+.headerCH{ background-color:#fff; font-family:"Microsoft YaHei";}
+.headerCH .header{ background:#595656; color:#fff; height:35px; line-height:35px; width:100%;}
+.hd_navs{ background:#fff; height:89px; border-bottom:1px solid #eb6100;}
+.hd_navs .hd_navcon{ width:1000px; height:89px; position:relative; margin:0 auto;}
+.hd_navs .hdLogo{ position:absolute; left:0; top:23px;}.hd_navs a{ text-decoration:none;}
+.hd_navs .hdLogo span{ font-size:26px; color:#888; margin-left:5px; vertical-align:middle;}
+.hd_navs .hdLogo:hover span{ text-decoration:none;}
+.hd_navs .hd_menu{ position:absolute; right:20px; bottom:0px;}
+.hd_navs .hd_menu li{ float:left; margin-right:3px;}
+.hd_navs .hd_menu li a{ height:45px; color:#333; font:normal 18px/45px "Microsoft YaHei"; padding:0 15px; display:block;}
+.hd_navs .hd_menu li a:hover,.hd_navs .hd_menu li a.hove{ background:#eb6304; color:#fff;}
+.ch_navgat{ height:45px; line-height:45px; color:#c9c9c9; margin:0 auto; width:1000px;}
+.ch_navgat a{ color:#c9c9c9;}
+/*侧边栏*/
+.ch_manage{ border:1px solid #f9f9f9; background:#fff;}
+.ch_manage h3{ color:#eb6100; height:48px; line-height:48px; font-size:22px; text-indent:10px; border-bottom:1px solid #f9f9f9;}
+.ch_manage .ul_ListUS{ margin:3px 0 20px 55px;}
+.ch_manage .ul_ListUS li{ margin-top:15px;}
+.ch_manage .ul_ListUS li a{ color:#333; font-size:16px; font-family:"Microsoft YaHei"; line-height:26px;}
+.ch_manage .ul_ListUS li a:hover,.ch_manage .ul_ListUS li a.onhove{ text-decoration:none; color:#eb6100;}
+.ch_manage .ul_ListUS li a i{ background:url(images/mem_ico.png) no-repeat 0 0; width:3px; height:5px; display:block; float:left; margin-right:8px; margin-top:10px;}
+.ch_manage .ul_ListUS li a:hover i,.ch_manage .ul_ListUS li a.onhove i{ background-position:-4px 0;}
+
+/* ------------------------ */
+blockquote, th, td{margin: 0;padding: 0;}
+table{border-collapse: collapse;border-spacing: 0;}
+.chMain{ width:1000px; margin:0 auto 20px; text-align:left;}
+.chLeft{ width:230px; float:left;}
+.chRight{ float:right; width:710px;}
+/**资讯管理**/
+.bann_top{ height:37px; border-bottom:1px solid #efefef; position:relative; margin-bottom:5px;}
+.bann_top .h2_tit{ color:#333; letter-spacing:1px; line-height:37px; font-size:18px;}
+.bann_top .h2_tit a{ color:#d91f20; font-size:12px;}
+.bann_top .h2_tit a.edit_gao{ position:absolute; right:1px; top:5px; background:#da251c; color:#fff; height:25px; line-height:25px; width:65px; text-align:center; border-radius:3px; font-family:"Microsoft YaHei";}
+.bann_top .h2_tit a.edit_gao:hover{ background:#eb6100; text-decoration:none;}
+.comt_tab .comt_first{ padding:30px 0 20px 40px;}
+.comt_tab .cont_port{ width:105px; height:105px; background:#e3e3e3 url(images/mem_tou.png) no-repeat center center; text-indent:-999em; border-radius:50%; display:block; float:left;}
+.comt_tab .cont_edit{ float:left; margin-left:15px; display:block; margin-top:40px; color:#d91f20; position:relative; padding-right:20px;}
+.comt_tab .cont_edit i{ background:url(images/mem_ico.png) no-repeat 5px -5px; width:22px; height:17px; position:absolute; right:0; top:2px;}
+.comt_tab font{ color:#d91f20;}
+.comt_tab th,.comt_tab td{ padding-bottom:20px; font-family:"Microsoft YaHei";}
+.comt_tab th{ font-size:14px; width:100px; text-align:right; padding-right:3px;}
+.input_re{ border:1px solid #ededed; height:30px; background:#fff; width:270px; border-radius:3px; text-indent:10px; font-size:14px;}.in_d{ width:160px;}
+.inputText{ width:510px; height:90px; border:1px solid #ededed; border-radius:3px; outline:none; text-indent:10px; resize:none; vertical-align:middle;}
+.comt_tab td em{ color:#999; font-family:"\u5b8b\u4f53";}
+.comt_tab td em.red{ color:#d91f20;}
+.comt_tab .one_T{ padding-top:10px; font-size:15px; margin:0;}
+.submi_btn{ font-size:14px; letter-spacing:1px; color:#fff; height:30px; background:#eb6100; border-radius:3px; width:80px; text-align:center;border:none; cursor:pointer; font-family:"Microsoft YaHei"; display:block; line-height:30px; display:inline-block;}
+.submi_btn:hover{ background:#d91f20; color:#fff; text-decoration:none;}
+.red_submi_btn{ background:#da251c;}.red_submi_btn:hover{ background:#eb6100;}
+.collect_tab td{ padding:15px 0; border-bottom:1px dashed #cacaca; text-align:left;}
+.collect_tab input{ vertical-align:middle;}
+.collect_tab .times{ color:#c0c0c0; font-size:12px;}
+.collect_tab .tix_t{ color:#eb6000;}
+.collect_tab .big_tit{ color:#333; font-size:15px; font-family:"Microsoft YaHei";}
+.collect_tab .big_tit:hover{ color:#eb6100;}
+.collect_tab .center_txt{ text-align:center; color:#da251c;}
+.collect_tab .back_go{ color:#999;}.collect_tab .back_go:hover{ color:#eb6000; text-decoration:none;}
+.collect_tab .back_go em{ background:url(images/mem_ico.png) no-repeat 0 -23px;width:12px;height:12px;display:block; float:left; margin-right:2px; margin-top:5px;}
+.collect_tab .back_go:hover em{ background-position:0 -35px;}
+.collect_tab td.submit_zx{ border-bottom:none;}
+.notice_div{ padding:15px 0;}
+.notice_div p{ margin-bottom:25px; font-family:"Microsoft YaHei"; font-size:13px;}
+.notice_div p em{ color:#d91f20; display:block;}
+.comt_editform{ padding:30px 0 20px 10px;}
+.inp_560{ width:560px;}
+.edit_tearea{ width:560px; height:215px; resize:none; line-height:24px; color:#444; border:1px solid #ededed; border-radius:3px;}
+
+
+
+/* == 个人中心 == */
+
+/** 编辑资料 **/
+body{ color:#333; font-family:Microsoft Yahei; font-size:12px;}
+.box{ zoom:1}.box:after{ clear:both; display:block; content:'\0020'; height:0; visibility:hidden;} 
+.main{ float:right; width:710px; overflow:hidden; position:relative;}
+.title{ font-size:18px; border-bottom:1px solid #efefef;  height:40px; line-height:40px;}
+.editMain th{ color:#666; font-weight:normal; text-align:right;}
+.editMain th,.editMain td{ height:30px; line-height:30px; padding:10px 0;}
+.inputS{ height:28px; width:270px; line-height:28px; text-indent:2px; border:1px solid #ededed; border-radius:2px;}
+.msg{ color:#d9201e; font-family:SimSun; margin-left:10px;}
+select{font-family:Microsoft Yahei; height:28px; line-height:28px;border:1px solid #ededed; border-radius:2px;}
+.textareaT{ width:530px; height:80px; border:1px solid #ededed; border-radius:2px; padding:5px;font-family:Microsoft Yahei; vertical-align:text-bottom;}
+.w250{ width:250px;}
+.bnt{ background:#eb6100; color:#fff; padding:0 10px; height:30px; line-height:30px; text-align:center;border-radius:2px; border:0 none; cursor:pointer;font-family:Microsoft Yahei; display:inline-block; text-decoration:none;}
+.bntb{ font-family:SimSun; height:25px; line-height:25px;}
+
+/*密码设置*/
+.bnta{ color:#fff; background:#d9201e; border-radius:2px; padding:3px 5px; text-decoration:none; margin-left:5px;}
+
+/*个人资料*/
+.infoT{ font-size:14px; color:#666; margin-bottom:10px;}
+.infoN{ font-size:18px;}
+.infoT span{ color:#eb6100;}
+.photo{ float:left; width:195px; height:195px;border-radius:50%; overflow:hidden;}
+.photo img{width:195px; height:195px;border-radius:50%; overflow:hidden;}
+.photo a{ position:relative; width:195px; height:195px; overflow:hidden; display:block;}
+.editPhoto{ display:none; position:absolute; top:0; left:0; width:195px; height:195px; color:#fff; font-size:14px; text-align:center; line-height:195px; background:#000;opacity:0.7;}
+.photo a:hover .editPhoto{ display:block;}
+.infoMain{ padding:40px 0;}
+.infoR{ width:475px; float:right;}
+.infoCon span{ color:#666;}
+.infoCon td{ padding-top:10px; line-height:220%;}
+.infoCon .bnt{ margin-top:15px;}
+/** 邮箱设置 **/
+
+
+/** 手机设置 **/
+
+.phone{ width:135px; height:125px; float:left;}
+.phoneMain{ width:565px; float:right;}
+.inputB{ margin-bottom:10px;}
+.msgMain{ color:#fff; font-size:18px; text-align:center; width:345px; height:75px; line-height:75px; background:#000;opacity:0.7; position:absolute; top:50%; left:50%; margin-top:-37px; margin-left:-172px;}
+/* ------------------------ */
+
+
+/*系统消息*/
+.clear{ clear:both; overflow:hidden;}
+.fl{ float:left;}
+.fr{ float:right;}
+ul,li{ list-style:none;}
+.chooseA{ float:left; width:25px; padding-top:35px;}
+.messTxt{ width:685px; float:left;}
+.messTxta{ color:#c0c0c0; height:20px;}
+.messTxt a{ color:#eb6000; text-decoration:none;}
+.reada{ text-align:right;}
+.messTxt p{ clear:both; line-height:180%; margin:5px 0;}
+.messagesMain li{ border-bottom:1px dashed #cacaca; padding:12px 0; font-family:SimSun;}
+.pageBot{ padding:20px 0;}
+.pageBot input{ margin-right:18px;}
+
+/* == 资讯管理 == */
+
+/** 我的收藏 **/
+
+/** 个人专栏申请 **/
+
+
+/* ------------------------ */
+
+/* 登录、注册 */
+
+/* 忘记密码、重置密码 */
+
+/* 第三方登录补充资料 */
+.passport { overflow: hidden; }
+.passport .y { float: right; font-size: 14px; }
+.passport .offset-right { margin-left: 120px; }
+.passport .head { border-bottom: 1px solid #eb6100; }
+.passport .head h1 { padding-left: 230px; margin: 0 auto; background: url("images/logo.png") left center no-repeat; height: 90px; font: normal 24px/90px "Microsoft Yahei", sans-serif; color: #eb6100; display: inline-block; }
+.passport .head .tip { height: 90px; line-height: 90px; color: #eb6100; }
+.passport .main { padding-left: 276px; width: 724px; min-height: 580px; margin: 40px auto; background-color: #fdfdfd; float: none; }
+
+.passport .main .control { overflow: hidden; margin-bottom: 20px; }
+.passport .main .control label { font: normal 16px/36px "Microsoft Yahei", sans-serif; float: left; width: 120px; text-align: right; }
+.passport .main .control label .need { color: red; }
+.passport .main .control input[type='text'], .passport .main .control input[type='password'] { width: 260px; height: 36px; font: normal 14px/36px sans-serif; border: 1px solid #ededed; border-radius: 3px; padding: 0 5px; }
+.passport .main .control .tip { font: normal 14px/36px "Microsoft Yahei",sans-serif; color: #c0c0c0; }
+.passport .main .control .submit { margin-left:120px; width: 107px; height: 40px; background-color: #eb6100; color: #fff; border: none; outline: none; border-radius: 3px; font-size: 15px; font-family: "Microsoft Yahei",sans-serif; cursor: pointer; }
+.passport .main .control .submit:hover { background-color: #d92020; }
+
+.passport .main .thirdpart { color: #898989; font: normal 14px sans-serif; border-top: 1px solid #f9f9f9; margin-top: 10px; padding-top: 10px; }
+.passport .main .thirdpart .sign { width: 187px; height: 42px; display: inline-block; margin-right: 10px; }
+.passport .main .thirdpart .sign.qq { background: url("images/thirdsignin.png") 0 0 no-repeat; }
+.passport .main .thirdpart .sign.qq:hover { background-position: 0 -61px; }
+.passport .main .thirdpart .sign.weibo { background: url("images/thirdsignin.png") -196px 0 no-repeat; }
+.passport .main .thirdpart .sign.weibo:hover { background-position: -196px -61px; }
+
+.headerBg .menu, .headerBg .jianju45, .hotLink { display: none; }
+
+/* 注册 */
+.passport .tabs { border-bottom: 1px solid #efefef; margin-bottom: 30px; position: relative; height: 35px; }
+.passport .tabs li { float: left; height: 35px; color: #000; margin-right: 30px; font-size: 18px; cursor: pointer; }
+.passport .tabs li.active { border-bottom: 1px solid #eb6100; color: #eb6100; }
+.passport .main .panel { display: none; }
+.passport .main .panel.active { display: block; }
+.passport .main .control input[type='text'].seccode { width: 165px; }
+.passport .main .control .seccodeimg { width: 85px; height: 36px; margin-left: 5px; vertical-align: -13px; }
+.passport .link { color: #d92121; }
+.passport #btn_sms { width: 110px; height: 25px; line-height: 25px; font-size: 14px; }
+
+/* 忘记密码 */
+
+
+/*邮箱设置*/
+.emailL{ float:left; width:165px;}
+.emailR{ float:left; width:550px;}
+.colorG{ color:#c0c0c0; display:inline-block; width:200px; line-height:140%; vertical-align:middle; margin-left:3px;}
+.emailR input{ vertical-align:top;}
+.title .msg{ font-size:12px; font-family:Microsoft YaHei;}
+
+
+.menu_bd{ display:none;}
+
+.aui_outer { text-align:left; }
+.aui_border, .aui_inner { border:0; margin:0; border-collapse:collapse; width:auto; }
+.aui_nw, .aui_n, .aui_ne, .aui_w, .aui_center, .aui_e, .aui_sw, .aui_s, .aui_se, .aui_header, .aui_tdIcon, .aui_main, .aui_footer { padding:0; }
+.aui_header, .aui_buttons button { font: 12px/1.11 'Microsoft Yahei', Tahoma, Arial, Helvetica, STHeiti; _font-family:Tahoma,Arial,Helvetica,STHeiti; -o-font-family: Tahoma, Arial; }
+.aui_title { overflow:hidden; text-overflow: ellipsis; }
+.aui_state_noTitle .aui_title { display:none; }
+.aui_close { display:block; position:absolute; text-decoration:none; outline:none; _cursor:pointer; }
+.aui_close:hover { text-decoration:none; }
+.aui_main { text-align:center; min-width:9em; min-width:0\9; }
+.aui_content { display:inline-block; *zoom:1; *display:inline; text-align:left; border:none 0; }
+.aui_content.aui_state_full { display:block; width:100%; margin:0; padding:0!important; height:100%; }
+.aui_loading { width:96px; height:32px; text-align:left; text-indent:-999em; overflow:hidden; }
+.aui_icon { vertical-align: middle; }
+.aui_icon div { width:48px; height:48px; margin:10px 0 10px 10px; background-position: center center; background-repeat:no-repeat; }
+.aui_buttons { padding:8px; text-align:right; white-space:nowrap; }
+.aui_buttons button { margin-left:15px; padding: 7px 14px; cursor: pointer; display: inline-block; text-align: center; line-height: 1; *padding:4px 10px; *height:2em; letter-spacing:2px; font-family: Tahoma, Arial/9!important; width:auto; overflow:visible; *width:1; color: #fff; border: solid 1px #db5c05; border-radius:2px; background: #eb6100; font-size:16px;}
+.aui_buttons button:focus { outline:none 0; border-color:#db5c05; background:#d85903;}
+.aui_buttons button:hover { color:#000; border-color:#db5c05; }
+.aui_buttons button:active { border-color:#db5c05;background:#d85903;}
+button.aui_state_highlight { color: #FFF; border: solid 1px #db5c05; background: #eb6100;}
+button.aui_state_highlight:hover,button.aui_state_highlight:active { color:#FFF; border-color:#db5c05;background:#d85903; }
+.aui_inner { background:#FFF; border-radius:5px;}
+.aui_c{ background:rgba(0,0,0,.2);}
+.aui_outer, .aui_center { border:1px solid rgba(0, 0, 0, .3)!important; border:1px solid #333\9!important; }
+.aui_border { border-radius:2px; box-shadow: inset 0 0 1px rgba(255, 255, 255, .9); }
+.aui_nw, .aui_ne, .aui_sw, .aui_se { width:10px; height:10px; }
+.aui_nw, .aui_n, .aui_ne, .aui_w, .aui_e, .aui_sw, .aui_s, .aui_se { background:rgba(0, 0, 0, .2); background:#000\9!important; filter:alpha(opacity=20); }
+.aui_state_focus .aui_inner { box-shadow: 0 0 3px rgba(0, 0, 0, 0.4); }
+.aui_state_focus .aui_outer { box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+.aui_state_drag .aui_outer { box-shadow:none; border:1px solid rgba(0, 0, 0, .4)!important; border:1px solid #333\9!important; }
+.aui_titleBar { position:relative; height:100%; border-radius:5px 5px 0 0; }
+.aui_title { height:38px; line-height:40px; padding:0 28px 0 10px; background-color:#eb6100; font-weight:bold; color:#95a7ae; font-family: Tahoma, Arial/9!important; border-radius:5px 5px 0 0;}
+.aui_state_focus .aui_title { color:#fff; font-size:16px}
+.aui_state_drag .aui_titleBar { box-shadow:none; }
+.aui_close { padding:0; top:8px; right:2px; width:35px; height:35px; line-height:21px; font-size:33px; color:#fff; text-align:center; font-family: Helvetica, STHeiti; _font-family: '\u9ed1\u4f53', 'Book Antiqua', Palatino; }
+.aui_close:hover { color:#C72015; }
+.aui_close:active { box-shadow: none; }
+.aui_content { color:#666; }
+.aui_state_focus .aui_content { color:#000; }
+.aui_inner table{ width:100%;}

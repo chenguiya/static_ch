@@ -1,0 +1,67 @@
+﻿#wp,.wp{ width:1040px; margin:0 auto;}
+#pt{ margin:2px 0; height:29px; line-height:29px;}
+#pt .z{ padding-right:10px;}
+#pt .z a,#pt .z em,#pt .z span{ float:left; height:29px;}
+.nvhm{ width:16px; background:url(images/search.png) no-repeat 0 0; overflow:hidden; line-height:200px;}
+#pt .z em{ background:url(images/pt_item.png) no-repeat 3px 10px; line-height:200px; overflow:hidden; width:20px;}
+input, button, select, textarea {border: 1px solid #cecbce;padding: 0 2px;height: 24px;line-height: 24px; color:#444;}
+textarea {resize: none;}
+
+/* 管理中心 */
+.ch_ct2_c{ margin-bottom:20px;}
+.ch_ct2_c .chappl{ background:#fff; padding:15px; width:170px; float:left;}
+.ch_bbda{ padding-bottom:2px; font-size:18px; color:#333;}
+.ch_tbn li{ border-bottom:1px dashed #d9d9d9; height:32px; position:relative; color:#909090; line-height:32px;}
+.ch_tbn li em{font-size:13px; font-family:SimSun; float:left; margin-right:2px;}
+.ch_tbn li a{ font-size:14px; font-family:"Microsoft YaHei"; color:#666;}
+.ch_tbn li.a a,.ch_tbn li a:hover{ color:#eb6000;}
+.ch_mnb{ width:810px; float:right; overflow:hidden; background-color:#fff;}
+.ch_mnb .h2_titx{ height:40px; background:#eb6000; font-size:18px; letter-spacing:2px; color:#fff; line-height:40px; text-indent:10px;}
+.ch_mnb .ch_mtm{ padding:20px;}.ch_mnb select,.ch_mnb input,.ch_mnb button{ outline:none;}.ch_mnb select{ height:22px;}
+.ch_mnb .cp_fre{ width:80px;}.ch_mnb .input_o{ width:175px;}
+.ch_mnb .pn_bt{ overflow:hidden; height:22px; background:#eb6000; color:#fff; cursor:pointer; border-radius:2px; letter-spacing:3px; border:none; padding:0 9px; font-family:"Microsoft YaHei";}
+.ch_mnb #goodstop a{ background:none; padding:0;}
+.ch_mnb #goodstop a.ch_xw0{ height:26px; background:#fff; margin:7px 7px 0 0; font-size:14px; color:#eb6000; position:relative; padding-left:16px; padding-right:8px; line-height:26px; letter-spacing:0; border-radius:3px;}
+.ch_mnb #goodstop a.ch_xw0:hover{ background:#ff9600; color:#fff;}
+.ch_mnb #goodstop a.ch_xw0 i{ background:url(images/admi_icon.png) no-repeat 0 0; width:11px; height:11px; display:block; position:absolute; left:8px; top:8px;}
+.ch_mnb #goodstop a.ch_xw0:hover i{ background-position:0 -11px;}
+.form_table{ padding:0 20px 20px; width:770px; overflow:hidden;}
+.dt_table{ width:100%;}.dt_table th{ color:#999; font-size:14px; height:39px; line-height:39px; border-bottom:1px dashed #d9d9d9; border-top:1px solid #d9d9d9; text-align:center;}
+.dt_table th a{ color:#999;}.dt_table th a:hover{ color:#eb6000;}
+.dt_table td{ text-align:center; padding:12px 0; border-bottom:1px dashed #d9d9d9; color:#333;}
+.form_table #admin_goods_list td,.form_table #admin_goods_list th{ text-align:center;}
+.dt_table td.submit_t{ text-align:left; padding-left:2px; border-bottom:none;}
+.dt_kaimi th,.dt_kaimi td{ text-align:left;}
+.dt_good .updown_icon{background:url(../../../plugin/dc_mall/image/updown.png) repeat scroll 0% 0% transparent;display:inline-block;width:11px;height:11px;line-height:12px;vertical-align:middle; margin-left:5px;}
+.dt_good .up-icon{background-position:0px 0px;}
+.dt_good .down-icon{background-position:-11px 0px;}
+.dt_good .selected .up-icon{background-position:-22px 0px;}
+.dt_good .selected .down-icon{background-position:-33px 0px;}
+.form_table #admin_goods_list td.td_s{ text-align:left; padding-left:10px;}
+.dt_table td.td_s h3{ color:#333; font-size:14px;}
+.ch_mtm{ padding:20px;}.ch_mtm .mt_table th,.ch_mtm .mt_table td{ padding-bottom:20px; text-align:left;}
+.ch_mtm .mt_table th{ font-size:14px; width:100px;}.ch_mtm .mt_table td em,.ch_kmmtm em{ color:#999; font-family:"\u5b8b\u4f53";}
+.mt_table .chp_fre,.ch_mtm #extinfo input{ border-radius:2px; height:26px; border:1px solid #cecbce;}
+.mt_table .psf{ width:150px; color:#999; border:none;}
+.mt_table select{ width:125px; height:24px;}
+.mt_table .td_selt select{ width:125px; height:155px; vertical-align:middle; margin-right:5px;}
+.mt_table .th_tops{ vertical-align:top;}
+.mt_table .h3_p{ font-size:16px; margin-bottom:8px;}
+.submi_btn{ width:68px; height:32px; background:#eb6000; border-radius:5px; border:none; font-family:"Microsoft YaHei"; color:#fff; font-size:14px; letter-spacing:2px;}
+.ch_mtm .mt_table td.td_ts{ text-align:center;}
+.ch_form{ padding:0 20px 20px;}
+.dt_sort th{ border-bottom:1px dashed #d9d9d9; padding-top:7px; height:32px; line-height:32px; font-size:14px; color:#999;}
+.dt_sort td{ padding:15px 0; border-bottom:1px dashed #d9d9d9;}.dt_sort td.td_redds{ color:#eb6000;}
+.dt_sort .renew{ width:230px; height:26px; border:1px solid #cecbce; line-height:26px; border-radius:3px; text-indent:8px;}
+.dt_sort .algin_c,.ch_form #admin_goods_list .t_sor,.ch_form #admin_goods_list .algin_c{ text-align:center;}.dt_sort .t_sor{ border-bottom:none;}
+.ch_mnb .kami_tit{ letter-spacing:0;}
+.ch_mnb .ch_tbs{ margin-top:8px; height:35px; border-bottom:1px solid #d9d9d9;}
+.ch_mnb .ch_tbs li{ margin:0 5px 0 0; float:left;}
+.ch_mnb .ch_tbs li.y{ float:right; margin:0;}
+.ch_mnb .ch_tbs li a{ font-size:16px; margin-right:10px; display:block; line-height:35px;}
+.ch_mnb .ch_tbs li.y a{ font-size:14px;}
+.ch_mnb .ch_tbs li.a a{ border-bottom:1px solid #eb6000; color:#eb6000;}
+.ch_mnb .ch_kmmtm{ margin:20px 0;}
+.ch_mnb .kam_tearea{ width:455px; height:215px; border-radius:5px;}
+.blank10{ clear:both; height:10px; visibility:hidden; display:block;}
+.pipe{ color:#999; margin:0 5px;}

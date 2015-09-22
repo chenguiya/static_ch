@@ -1,0 +1,21 @@
+@charset "utf-8";
+.pictures{margin: 25px auto; width:1000px;}
+.pictures ul{overflow: hidden;}
+.pictures .showcase{overflow: hidden; margin-bottom: 40px;}
+.pictures .showl{ float:left; width:196px;}
+.pictures .showl li,.pictures .showr li{ float:left; width:97px; height:85px; margin:0 1px 1px 0;position:relative; }
+.pictures .showl li img{ width:100%; height:100%;}
+.pictures .showr{ float:right; width:196px;}
+.pictures .showr li{ margin:0 0 1px 1px;}
+.pictures .showcase li .shadow { background: rgba(0, 0, 0, 0.7);position: absolute; width:96px; height: 85px; display: none; top: 0; left: 1px;}
+.pictures .showcase .case { width: 608px; height: 344px; float: left; position: relative;}
+.pictures .showcase .case img { width: 100%; height: 100%; }
+.pictures .showcase .case .title { position: absolute; width: 588px; height: 38px; padding: 0 10px; font: normal 16px/38px sans-serif; bottom: 0; background-color: rgba(0, 0, 0, 0.6); color: #fff; }
+.pictures .widget{width:1000px;margin-bottom: 25px;overflow: hidden; }
+.pictures .widget .widget-head{height: 56px;line-height: 56px;border-bottom: none; font-size: 24px; }
+.pictures .widget .widget-head .title:hover { text-decoration: none; outline: none; color: #333; }
+.pictures .widget .widget-head .more { font: normal 24px/55px sans-serif; margin: 0; height: 55px; }
+.pictures .wall li{ float:left; width:249px; margin:0 1px 1px 0; line-height:1em; position:relative; cursor:pointer;}
+.pictures .wall li .cover{ position:absolute; left:0; top:0; z-index:2000; width:209px; height:108px; padding:80px 20px 0; background:rgba(0,0,0,0.7); color:#fff; display:none; font: normal 14px/1.4 sans-serif;}
+.pictures .wall li img { width: 100%; height: 100%;}
+

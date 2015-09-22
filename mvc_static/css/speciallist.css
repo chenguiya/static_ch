@@ -1,0 +1,6 @@
+@charset "utf-8";
+.delist_hd{height:40px; border-bottom:1px solid #eb6100; font:normal 24px/40px "Microsoft YaHei";}
+.delist_bd{ margin-left:-16px; width:1032px; overflow:hidden; margin-bottom:20px;}
+.delist_bd img{ vertical-align:middle;}
+.delist_bd li{ float:left; margin-left:16px; margin-right:16px; width:312px; margin-top:18px;}
+.delist_bd .dep_title{ color:#333; font-size:14px; margin-top:5px; line-height:25px; display:block; font-family:"Microsoft YaHei";}

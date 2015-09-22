@@ -1,0 +1,83 @@
+@charset "utf-8";
+.sportnews { margin: 25px auto; width:1000px;}
+.sportnews .topslide { overflow: hidden; background: #eee url(images/tid_bgco.png) repeat;position: relative; height: 330px; width: 1000px; }
+.sportnews .slides { height: 330px; float:left;}
+.sportnews .slides li { height: 330px; width: 1000px; float: left; }
+.sportnews .slides li .thumb { float: right; height: 330px; width: 620px;}
+.sportnews .slides li .thumb img { width: 100%; height: 100%; }
+.sportnews .slides li .title { font-size: 24px; margin-top: 0; margin-bottom: 20px; line-height:28px; font-family:"Microsoft YaHei";}
+.sportnews .news_top{ padding:25px; width:330px; float:left;}
+.sportnews .news_top span{ color:#666; font-size:14px; height:168px; overflow:hidden;}
+.sportnews .indicator { position: absolute; bottom: 15px; left: 100px; text-align: center; width: 380px; }
+.sportnews .indicator li { display: inline-block; border-radius: 50%; background-color: #bbbbbb; color: #fff; height: 24px; line-height: 24px; width: 24px; text-align: center; float:left;margin: 0 3px; cursor:pointer;}
+.sportnews .indicator li.active{ background-color: #eb6100; }
+.sportnews .slidepre,.sportnews .slidenext{ opacity:0.6;cursor:pointer; position:absolute; top:125px;}
+.sportnews .slidepre{ left:0;}.sportnews .slidepre:hover{ opacity:1;}
+.sportnews .slidenext{ right:0;}.sportnews .slidenext:hover{ opacity:1;}
+.sportnews ul, .sportnews li { overflow: hidden; }
+.sportnews .promotions { width:1032px;padding: 0; }
+.sportnews .promotions li { float:left; width:312px; height:140px; position:relative; margin-right:32px;}
+.sportnews .promotions li img { width: 100%; height: 100%; }
+.sportnews .promotions li .title { position: absolute; left:0; bottom: 0; height: 30px; padding:0 5px; width:302px; line-height: 30px;background:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter:alpha(opacity=70); opacity: 0.7; color: #fff; text-align: center; font-family:"Microsoft YaHei";}
+.sportnews .row { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 1000px; }
+.sportnews .col-left { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 675px; float: left; }
+.sportnews .col-right { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 300px; float: left; margin-left: 25px; }
+.sportnews .new_box{margin-bottom: 20px; }
+.sportnews .new_head { height: 46px; line-height: 46px; font-size: 20px; border-top: 1px solid #eb6100; border-bottom: 1px solid #e8e8e8; background-color: #fdfdfd; font-family:"Microsoft YaHei";}
+.sportnews .new_head .links { display: inline-block; float: right; height: 46px; line-height: 46px; }
+.sportnews .new_head .links a { color: #333; font-size: 12px; margin-left: 15px; text-decoration: none; }
+.sportnews .new_head .links a:hover { color: #eb6100; }
+.sportnews .news_bd{ clear: both; min-height: 100px; }
+.sportnews .stars { padding: 10px; background-color: #f0f0f0; overflow: hidden;}
+.sportnews .stars ul{ width:675px;}
+.sportnews .stars ul li { width:57px; height:57px; float:left; position:relative; overflow:hidden; margin-right:9px;}
+.sportnews .stars ul li img { width: 100%; height: 100%; }
+.sportnews .stars ul li .transLayer { position:absolute; left:0; top:0; padding:0 5px; height:57px; line-height:57px;overflow:hidden; color:#fff; text-align:center;background:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter:alpha(opacity=70); opacity: 0.7; }
+.sportnews .list li { font-size: 12px; padding:20px 0;border-bottom: 1px dashed #cacaca; }
+.sportnews .list li .thumb { width: 155px; height: 115px; display: inline-block; float: left; margin-right: 15px; }
+.sportnews .list li .thumb img { width: 100%; height: 100%; }
+.sportnews .list li .title { margin: 0 0 10px; font-size: 16px;}
+.sportnews .list li .title a { text-decoration: none; font-family:"Microsoft YaHei"; font-size:16px;}
+.sportnews .list li .title a.cat { color: #eb6100; }
+.sportnews .list li .intro { color: #888888; line-height: 2em; padding-bottom:1em; }
+.sportnews .list li .intro .fulltext { color: #eb6100; }
+.sportnews .list li .tag { color: #bcbcbc; }
+.sportnews .list li .tag a { color: #bcbcbc; text-decoration: none; }
+.sportnews .list li .tag a:hover { color: #eb6100; }
+.sportnews .list li .posttime { float: right; color: #c9caca; }
+.sportnews .list-more { height: 30px; background-color: #eb6100; text-align: center; margin:15px 0; }
+.sportnews .list-more a { height: 30px; line-height: 30px; color: #fff; }
+.sportnews .widget{ margin-bottom:20px;}
+.sportnews .channels ul { margin-top: 10px;}
+.sportnews .channels li { margin-bottom: 10px; padding-bottom: 10px; position: relative; border-bottom: 1px dashed #cacaca; overflow: hidden; }
+.sportnews .channels li:last-child { border-bottom: none; margin-bottom: 0; }
+.sportnews .channels .avatar { height: 70px; width: 70px; display: inline-block; float: left; margin-right: 10px; position: relative; }
+.sportnews .channels .avatar img { height: 100%; width: 100%; border-radius: 0; }
+.sportnews .channels .author { position: absolute; bottom: 0; left:0; width: 100%; height: 20px; background: rgba(0, 0, 0, 0.7); font: normal 12px/20px serif; color: #fff; text-align: center; }
+.sportnews .channels h4 { font: normal 12px/1.8 sans-serif; max-height: 3.6em; }
+.sportnews .channels .updatetime { font-size: 12px; color: #bcbcbc; position: absolute; bottom: 10px; line-height: 1em; }
+
+
+
+
+.sportnews .ad { margin: 20px auto; }
+.sportnews .ad img { width: 100%; }
+.sportnews #ad_right1 { margin-top: 0; }
+.com-vision .frame { margin: -1px; padding: 0; box-sizing: border-box; }
+.com-vision .frame li { display: block; position: relative; color: #fff; }
+.com-vision .frame li a { color: #fff; }
+.com-vision img { width: 100%; height: 100%; }
+.com-vision .transLayer { width: 100%; height: 100%; margin: 0 0 1px 1px; padding: 20px; box-sizing: border-box; }
+.com-vision ul { float: left; overflow: hidden; }
+.com-vision .ga1 { width: 290px; }
+.com-vision .ga2 { width: 524px; }
+.com-vision .ga2 .transLayer { padding: 75px 20px 20px; }
+.com-vision .ga3 { width: 187px; }
+.com-vision .ga1 .transLayer, .com-vision .ga3 .transLayer { padding: 165px 20px 20px; }
+.com-vision li { float: left; padding: 0 0 1px 1px; margin: 0; }
+.com-vision .g1 { width: 290px; height: 351px; }
+.com-vision .g2 { width: 337px; height: 190px; }
+.com-vision .g3 { width: 185px; height: 190px; }
+.com-vision .g4 { width: 185px; height: 160px; }
+.com-vision .g5 { width: 337px; height: 160px; }
+.com-vision .g6 { width: 187px; height: 351px; }

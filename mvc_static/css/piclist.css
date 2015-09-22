@@ -1,0 +1,20 @@
+@charset "utf-8";
+.bread,.bread a{ color:#c9caca;}
+.bread{ border-bottom:1px solid #f2f2f2; padding-top:5px;}
+.piclist{ padding:0 15px; overflow:hidden; width:968px;}
+.piclist .pic_ul{ width:990px;}
+.piclist .pic_ul li{ float:left; margin-top:15px; margin-right:15px;}
+.piclist .pic_ul li img{ display:block; margin:0 auto;}
+.piclist .pic_ul li a{ display:block; line-height:20px; color:#333; width:223px;}
+.piclist .pic_ul li a:hover{ color:#eb6100; text-decoration:none;}
+.piclist .pic_ul li a.listVideoImg{ padding:3px; border:1px solid #fff; width:223px;}
+.piclist .pic_ul li a.listVideoImg:hover{ border:1px solid #e6e6e6;}
+.picpage{ margin:20px auto;}
+
+/*baidu分享按钮样式*/
+.pictureShare{left: 869px; overflow: hidden; display:block; position: absolute;border-radius: 5px; padding: 10px 25px 10px 25px; background: rgba(0,0,0,0.8); font-size: 22px; z-index:301}
+.pictureShare a.bds_tsina{background: url(images/ico_share.png) no-repeat 0px -7px; padding-left: 40px;}
+.pictureShare a.bds_t163{background: url(images/ico_share.png) no-repeat -38px -7px; padding-left: 40px;}
+.pictureShare a.bds_qzone{background: url(images/ico_share.png) no-repeat -76px -7px; padding-left: 40px;}
+.pictureShare a.bds_renren{background: url(images/ico_share.png) no-repeat -115px -7px; padding-left: 40px;}
+.pictureShare a.bds_more{background: url(images/ico_share.png) no-repeat -154px -7px; padding-left: 40px;}

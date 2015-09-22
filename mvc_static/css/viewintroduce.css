@@ -1,0 +1,69 @@
+@charset "utf-8";
+/**zhengwen**/
+.vews_mian{ width:1000px; margin:0 auto; overflow:hidden; text-align:left;}
+.vews_mian .vews_left{ float:left; width:300px; overflow:hidden; margin-right:25px;}
+.vews_mian .vews_right{ float:right; width:675px; overflow:hidden;}
+.vews_mian .det_current{ height:43px; line-height:43px; color:#c9caca;}
+.vews_mian .det_current a{ color:#c9caca; margin:0 5px; display:inline;}
+.vews_mian .det_current a:hover{ color:#eb6100;}
+.vews_mian .vews_hd{ height:32px; border-bottom:1px solid #eb6100; font-family:"Microsoft YaHei"; font-size:24px; line-height:32px; margin-bottom:10px;}
+.vews_mian .vews_bd{ width:675px; position:relative;}
+.vews_mian .vews_unit{ position:relative; margin-left:5px; padding-left:15px; border-left:1px solid #e8e8e8;}
+.vews_mian .vews_unthover{ background:#fafafa;}
+.vews_mian .vews_cycle{ position:absolute; left:-6px; top:2px; font-size:18px; color:#e8e8e8;}
+.vews_mian .vews_list{ border-bottom:1px dashed #cacaca;padding-bottom:15px; }
+.vews_mian .vews_name{ height:35px; line-height:35px;}
+.vews_mian .vews_name a{ font-size:18px; font-family:"Microsoft YaHei"; line-height:35px; color:#333;}
+.vews_mian .vews_name a:hover{ color:#eb6100;}
+.vews_mian .vews_txt{ font-size:12px; color:#a7a7a7; line-height:22px; margin-bottom:5px;}
+.vews_mian .vews_imgs{ margin:0px 0 15px; width:680px;}
+.vews_mian .vews_imgs a{ float:left; margin-right:12px; display:block; margin-top:12px; width:157px; height:118px;}
+.vews_mian .vews_meta .meta_left{ float:left; display:inline;}
+.vews_mian .vews_meta .meta_left a{ height:18px; line-height:18px; display:inline-block; margin-right:13px; background:url(images/ptch_icon.png) no-repeat -999em -999em; padding-left:18px;}
+.vews_mian .vews_meta .meta_left a.v_praise{ background-position:0 -288px;}
+.vews_mian .vews_meta .meta_left a.v_praise:hover{ background-position:0 -306px;}
+.vews_mian .vews_meta .meta_left a.v_step{ background-position:0 -324px;}
+.vews_mian .vews_meta .meta_left a.v_step:hover{ background-position:0 -342px;}
+.vews_mian .vews_meta .meta_left a.v_comment{ background-position:0 -360px;}
+.vews_mian .vews_meta .meta_left a.v_comment:hover{ background-position:0 0;}
+.vews_mian .vews_meta .meta_left a.v_share{ background-position:0 -378px;}
+.vews_mian .vews_meta .meta_left a.v_share:hover{ background-position:0 -108px;}
+.vews_mian .vews_meta .meta_left a:hover{ color:#eb6100; text-decoration:none;}
+.vews_mian .vews_meta .meta_right{ float:right; display:inline; color:#d0d0d0;}
+.vews_mian .vews_pages{ text-align:center;}
+
+/**gonggongzuobian**/
+.vewinfor{ margin-bottom:20px; width:300px;}
+.vewinfor .subsrbe{ background:#fafafa; width:290px; position:relative; padding:10px 0 15px 10px;}
+.vewinfor .auth_icon{ background:url(images/leftrig_icon.png) no-repeat -16px -53px; width:54px; height:54px; display:block; position:absolute; right:0; top:0;}
+.vewinfor .sub_left{ float:left; display:inline; margin-right:12px; height:118px; overflow:hidden;}
+.vewinfor .sub_right{ float:left; display:inline;}
+.vewinfor .sub_h3{ font-size:24px; color:#000; font-family:"Microsoft YaHei";}
+.vewinfor .sub_txt{ display:block; margin:5px 0 30px; width:140px; height:22px; overflow:hidden; line-height:22px; color:#999;}
+.vewinfor .sub_pay{ display:block; width:84px; height:27px; line-height:27px; text-align:center; color:#fff; background:#eb6100;-moz-border-radius:2px;-webkit-border-radius:2px;-ms-border-radius:2px; border-radius:2px;}
+.vewinfor .sub_article{ margin:12px 0; width:310px;}
+.vewinfor .sub_article li{ float:left; margin-right:10px; width:117px; color:#999; background:url(images/ptch_icon.png) no-repeat -999em -999em; padding-left:18px; line-height:18px;}
+.vewinfor .sub_article li em{ color:#eb6100; margin:0 2px;}
+.vewinfor .sub_article li.sub_a1{ background-position:0 -396px;}
+.vewinfor .sub_article li.sub_a2{ background-position:0 -414px;}
+.vewinfor .sub_introd{ color:#888; padding-right:10px;}
+.vewinfor .sub_introd em{ color:#eb6100; font-weight:bold; display:block;}
+.vewinfor .leftin_hd{ height:30px; border-bottom:1px solid #eb6100; line-height:30px; position:relative;}
+.vewinfor .leftin_hd h3{ font-size:16px; font-family:"Microsoft YaHei"; line-height:30px;}
+.vewinfor .in_more{ position:absolute; right:0; top:-15px; font-size:50px; text-decoration:none; font-family:"Microsoft YaHei"; display:block; color:#d7d7d7;}
+.vewinfor .in_more:hover{ color:#eb6100;}
+.vewinfor .auth_infor{ margin-top:15px;}
+.vewinfor .auth_infor li{ line-height:normal; position:relative; zoom:1;}
+.vewinfor .auth_num{ width:19px; height:19px; display:inline-block; position:absolute; left:2px; top:12px; line-height:normal; text-align:center; color:#fff; background:#bebebe;-moz-border-radius:50%;-webkit-border-radius:50%;-ms-border-radius:50%; border-radius:50%; line-height:19px;}
+.vewinfor .auth_red{ background:#d40000;}
+.vewinfor .auth_show{ border-bottom:1px dashed #c8c8c8; background:#fafafa; padding-top:10px; display:none;}
+.vewinfor .auth_show a{ font-family:"Microsoft YaHei"; font-size:14px; color:#333; padding-left:30px; width:270px; height:24px; overflow:hidden;}
+.vewinfor .auth_show a:hover{ color:#d40000;}
+.vewinfor .auth_show span{ display:block; padding-left:25px; margin:5px 0 10px; width:250px; line-height:22px; color:#888;}
+.vewinfor .auth_txt{ line-height:20px; height:20px; overflow:hidden; padding-left:30px; color:#333; padding-top:10px;}
+.vewinfor .auth_ul{ width:312px;}
+.vewinfor .auth_ul li{ float:left; width:68px; margin-right:9px; margin-top:12px;}
+.vewinfor .auth_ul li a{ display:block; width:68px; overflow:hidden;}
+.vewinfor .auth_ul li a img{ width:100%; height:100%;}
+.vewinfor .auth_ul li span{ display:block; height:24px; text-align:center; line-height:24px;}
+.vewinfor .ad_banner a{ display:block;}

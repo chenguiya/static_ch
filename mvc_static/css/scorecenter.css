@@ -1,0 +1,92 @@
+@charset "utf-8";
+.scorecenter{ margin:20px auto; width:1000px; overflow:hidden; text-align:left;}
+.scorecenter img{ vertical-align:middle;}
+.scorecenter .featured{ background:#f6f6f6; position:relative; margin-bottom:15px; font-family:"Microsoft YaHei";}
+.scorecenter .featured li.active{ display:block;}
+.scorecenter .featured .head{ height:36px; background:#5a5a5a; text-align:center; font-size:14px;}
+.scorecenter .featured .head span{ font:normal 15px/36px "Microsoft YaHei"; color:#fff; margin:0 5px;}
+.scorecenter .featured .m_l{ float:left;}
+.scorecenter .featured .team_l{ width:210px; padding:20px 0 0 20px;}
+.scorecenter .featured .team_r{ width:210px; padding:20px 20px 0 0;}
+.scorecenter .featured .team_l span,.scorecenter .featured .team_r span{ width:100px; text-align:center; font:bold 28px/95px "Arial","Microsoft YaHei"; color:#eb6100; display:block; float:left; overflow:hidden; height:110px;}
+.scorecenter .featured .team_l span img,.scorecenter .featured .team_r span img{ width:95px; height:95px; border-radius:50%;}
+.scorecenter .featured .team_c{ width:215px; text-align:center; padding-top:18px;}
+.scorecenter .featured .team_c .vs{ height:30px; font:normal 16px/30px "Microsoft YaHei",sans-serif; color:#333;}
+.scorecenter .featured .team_c .state{ font-size:20px; margin:10px 0;color:#eb6100;}
+.scorecenter .featured .team_c .live{ width:100%; text-align:center;}
+.scorecenter .featured .team_c .live a{ border:1px solid #dedede; background:#fff; height:25px; width:70px; color:#c2252c; padding:0 5px 0 10px; position:relative; line-height:25px; border-radius:4px; display:inline-block; font-size:14px;}
+.scorecenter .featured .team_c .live a:hover{ text-decoration:none; color:#c2252c; border:1px solid #eb6100;}
+.scorecenter .featured .team_c .live a .icon_live{ border-width:5px; border-style:dashed dashed dashed solid; border-color:transparent transparent transparent #c2252c; width:0; height:0; display:block; position:absolute; left:10px; top:8px; font-size:0;}
+.scorecenter .interact{ padding:0 51px 20px; overflow:hidden; text-align:center; font-family:sans-serif; color:#888; font-size:13px;}
+.scorecenter .interact .thumb{ background:url(images/thumb.png) no-repeat left top; display:block; width:32px; height:32px; cursor:pointer;}
+.scorecenter .interact .thumb:hover{ background-position:left bottom;}
+.scorecenter .interact .thumb.r{ background-position: right top;}
+.scorecenter .interact .thumb.r:hover{ background-position:right bottom;}
+.scorecenter .interact .sup_center{ width:470px; background:#0486eb; height:7px; border-radius:5px; margin-top:12px; margin-right:10px;}
+.scorecenter .interact .sup_center .su_ui{ background:#eb6100; height:7px; display:block; border-radius:5px 0 0 5px;}
+.scorecenter .featured .link{ width:420px; margin:-45px auto 10px; height:35px; overflow:hidden; vertical-align:middle;}
+.scorecenter .featured .link li{padding:5px 15px 0; margin:0; margin-right:10px; float:left; border:none; line-height:20px; color:#666; font-size:13px;font-family:SimSun; height:24px;}
+.scorecenter .featured .link li a{ color:#666; font-size:12px; font-family:"宋体";}
+.scorecenter .featured .nav{ height:35px; line-height:35px; background:#e7e7e7;}
+.scorecenter .featured .nav li{ width:322px; float:left;}
+.scorecenter .featured .nav li.prev{ padding-left:15px; text-align:left;}
+.scorecenter .featured .nav li.next{ padding-right:15px; text-align:right;}
+.scorecenter .featured .nav li a{ color:#888;}
+.scorecenter .schedule{ margin-bottom:25px;}
+.scorecenter .schedule .datepicker{ height:52px;}
+.scorecenter .datepicker li{ float:left; width:134px; border-right:1px solid #898989; background:#5a5a5a; float:left; font-size:14px; position:relative; color:#bdbdbd; cursor:pointer; text-align:center; height:52px;}
+.scorecenter .datepicker li .sep{ position:absolute; left:44px; top:10px; background:url(images/scroc_ico.png) no-repeat 0 0; width:29px; height:29px; z-index:1;}
+.scorecenter .datepicker li .month{ position:absolute; left:25px; top:8px;}
+.scorecenter .datepicker li .weekday{ position:absolute; left:75px; top:8px;}
+.scorecenter .datepicker li .day{ position:absolute; left:0; top:26px; color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-align:center; width:134px;}
+.scorecenter .datepicker li .today{ position:absolute; left:0; top:0; width:134px; background:#f6f6f6; height:54px; font:normal 20px/52px "Microsoft YaHei"; color:#eb6100; letter-spacing:2px;}
+.scorecenter .schedule .match{ border-top:1px solid #eb6100; margin-bottom:15px; background:#f6f6f6;}
+.scorecenter .schedule .match .head{ padding:0 10px; height:29px; border-top:1px solid #fdfdfd; border-bottom:1px solid #e7e7e7; text-align:center;}
+.scorecenter .schedule .match .head span{ font:normal 14px/30px "Microsoft YaHei",sans-serif; color:#000; margin:0 5px;}
+.scorecenter .schedule .match .head span.title{ color:#eb6100;}
+.scorecenter .schedule .m_l{ float:left;}
+.scorecenter .schedule .m_l .name{ height:50px; width:75px; margin:0 10px; font:normal 12px/50px "Microsoft YaHei",sans-serif;}
+.scorecenter .schedule .m_l .score{ height:50px; width:55px; font:bold 25px/50px "Arial",sans-serif; color:#eb6100; margin:0 10px; text-align:center;}
+.scorecenter .schedule .team_l{ width:224px; padding:20px 0 0 36px;}
+.scorecenter .schedule .team_l span{ float:left;}
+.scorecenter .schedule .logo img{ width:50px; height:50px; border-radius:50%;}
+.scorecenter .schedule .team_r{ float:right; width:224px; padding:20px 36px 0 0;}
+.scorecenter .schedule .team_r span{ float:right;}
+.scorecenter .schedule .team_c{ width:155px; padding-top:18px; text-align:center;}
+.scorecenter .schedule .team_c .state{ font-size:18px; color:#eb6100; margin-bottom:10px;}
+.scorecenter .schedule .team_c .live{ width:100%; text-align:center;}
+.scorecenter .schedule .team_c .live a{ border:1px solid #dedede; background:#fff; height:25px; width:70px; color:#c2252c; padding:0 5px 0 10px; position:relative; line-height:25px; border-radius:4px; display:inline-block; font-size:14px;}
+.scorecenter .schedule .team_c .live a:hover{ text-decoration:none; color:#c2252c; border:1px solid #eb6100;}
+.scorecenter .schedule .team_c .live a .icon_live{ border-width:5px; border-style:dashed dashed dashed solid; border-color:transparent transparent transparent #c2252c; width:0; height:0; display:block; position:absolute; left:10px; top:8px; font-size:0;}
+.scorecenter .schedule .interact{ padding:10px 12px; text-align:center;}
+.scorecenter .schedule .interact .sup_left{ margin-left:34px;}
+.scorecenter .schedule .interact .sup_left .thumb{ margin-right:10px; display:inline-block; float:left;}
+.scorecenter .schedule .interact .sup_left span,.scorecenter .schedule .interact .sup_right span{ float:left; line-height:32px; height:32px; margin:0 5px;}
+.scorecenter .schedule .interact .sup_right{ float:right; margin-right:34px;}
+.scorecenter .schedule .interact .sup_right .thumb{ margin-left:10px;}
+.scorecenter .schedule .interact .sup_right .thumb,.scorecenter .schedule .interact .sup_right span{ float:right;}
+.scorecenter .schedule .interact .sup_center{ width:390px; height:2px; border-radius:0; margin:0; display:inline-block;}
+.scorecenter .schedule .interact .sup_center .su_ui{ height:2px; border-radius:0;}
+.scorecenter .schedule .link{ height:25px; background:#e7e7e7; padding:0; line-height:25px; width:100%;}
+.scorecenter .schedule .link li{ width:150px;text-align:left; margin-left:10px; color:#898989; float:left; padding-left:8px; background:url(images/ico_dian.png) no-repeat 0 12px; }
+.scorecenter .schedule .link li a{ font-size:12px; line-height:25px; color:#666;}
+.scorecenter .schedule .notbegin{ border-top:1px solid #d40000;}
+.scorecenter .schedule .notbegin .head span.title{ color:#d40000;}
+.scorecenter .schedule .notbegin .state{ color:#a4a4a4;}
+.scorecenter .schedule .notbegin .reminder{ width:100%; text-align:center;}
+.scorecenter .schedule .notbegin .reminder a{ width:75px; height:25px; font:normal 13px/25px "Microsoft YaHei",sans-serif; background:#d50100; border-radius:4px; display:inline-block; text-decoration:none; color:#fff;}
+.scorecenter .schedule .notbegin .reminder a:hover{ background:#eb6100;}
+.scorecenter .schedule .notbegin .logo img{filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ filter: gray; /* IE */ -webkit-filter: grayscale(100%); /* new webkit */ -webkit-filter: grayscale(1); /* old webkit */ }
+.scorecenter .schedule .end{ border-top:1px solid #989898;}
+.scorecenter .schedule .end .info,.scorecenter .schedule .end .head{filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ filter: gray; /* IE */ -webkit-filter: grayscale(100%); /* new webkit */ -webkit-filter: grayscale(1); /* old webkit */ }
+.scorecenter .loadmore{ height:30px; width:100%; text-align:center; margin:0 0 15px; background:#eb6100; font-size:15px; display:block;}
+.scorecenter .loadmore a{ height:30px; line-height:30px; color:#fff;}
+.scorecenter .widget{ margin-bottom:20px;}
+.scorecenter .widget-head{ background:#fdfdfd; height:44px; line-height:44px; border-bottom:1px solid #e8e8e8;}
+.scorecenter .slidebox{ margin-top:10px;}
+.scorecenter .twin_bd{ width:303px; margin:10px 0;}
+.scorecenter .twin_bd li{ float:left; margin-right:5px; width:96px; height:30px; overflow:hidden;margin-top:5px;}
+.scorecenter .twin_bd li a{ background:#eb6100; width:96px; height:30px; font:normal 12px/30px "Microsoft YaHei"; color:#fff; display:block; text-align:center; border-radius:3px;}
+.scorecenter .twin_top{ margin-bottom:10px;}
+.scorecenter .twin_news li{ height:30px; overflow:hidden; font-family:SimSun;}
+.scorecenter .twin_news li a{ font:normal 12px/30px serif;}

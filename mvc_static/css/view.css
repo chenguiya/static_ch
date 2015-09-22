@@ -1,0 +1,107 @@
+@charset "utf-8";
+.viewpoint { margin: 25px auto; width:1000px;}
+.viewpoint .topslide { overflow: hidden; background: #eee url(images/tid_bgco.png) repeat;position: relative; height: 330px; width: 1000px; }
+.viewpoint .slides { height: 330px; float:left;}
+.viewpoint .slides li { height: 330px; width: 1000px; float: left; }
+.viewpoint .slides li .thumb { float: right; height: 330px; width: 620px;}
+.viewpoint .slides li .thumb img { width: 100%; height: 100%; }
+.viewpoint .slides li .title { font-size: 24px; margin-top: 0; margin-bottom: 20px; line-height:28px; font-family:"Microsoft YaHei";}
+.viewpoint .news_top{ padding:25px; width:330px; float:left;}
+.viewpoint .news_top p{ color:#666; font-size:14px; height:168px; overflow:hidden;}
+.viewpoint .indicator { position: absolute; bottom: 15px; left: 100px; text-align: center; width: 380px; }
+.viewpoint .indicator li { display: inline-block; border-radius: 50%; background-color: #bbbbbb; color: #fff; height: 24px; line-height: 24px; width: 24px; text-align: center; float:left;margin: 0 3px; cursor:pointer;}
+.viewpoint .indicator li.active{ background-color: #eb6100; }
+.viewpoint .slidepre,.viewpoint .slidenext{ opacity:0.6;cursor:pointer; position:absolute; top:125px;}
+.viewpoint .slidepre{ left:0;}.sportnews .slidepre:hover{ opacity:1;}
+.viewpoint .slidenext{ right:0;}.sportnews .slidenext:hover{ opacity:1;}
+.viewpoint ul, .viewpoint li { overflow: hidden; }
+.viewpoint .row { margin: 0 auto; padding: 0; overflow: hidden; box-sizing: border-box; width: 1000px; }
+.viewpoint .col-left { margin: 0 auto; padding: 0; overflow: hidden; width: 675px; float: left; }
+.viewpoint .col-right { margin: 0 auto; padding: 0; overflow: hidden; width: 300px; float: right; margin-left: 25px; }
+.viewpoint .talk{ margin:20px 0; overflow:hidden;}
+.viewpoint .talk .head { width:22px; height:70px;float: left; background-color: #eb6001; padding: 15px 6px; font-size: 15px; line-height: 1.2em;display: block; text-align: center; color: #fff; font-family: "Microsoft Yahei", sans-serif;}
+.viewpoint .talk ul { float: left; width: 964px; border: 1px solid #e8e8e8; height:98px;}
+.viewpoint .talk li { float: left; position:relative; padding:15px 0 0 15px; width:23%;}
+.viewpoint .talk li .avatar { width: 70px; height: 70px; position:absolute; left:15px; top:15px;}
+.viewpoint .talk li .avatar img { width: 100%; height: 100%; border-radius: 0; }
+.viewpoint .talk li .title{ padding-left:80px; font-family: "Microsoft Yahei", sans-serif; height:40px; line-height:20px; overflow:hidden;}
+.viewpoint .talk li .author { padding-left:80px; color:#bbb;line-height: 1em; }
+.viewpoint .widget{ width:auto;}
+.viewpoint .widget-head{ height:46px; line-height:46px; background:none; font-size:20px;border-bottom:1px solid #e8e8e8;}
+.viewpoint .links { display: inline-block; float: right; height: 46px; line-height: 46px; }
+.viewpoint .links a { color: #333; font-size: 12px; margin-left: 15px; }
+.viewpoint .links a:hover { color: #eb6100; text-decoration: none; }
+.viewpoint .leftop h3{ font-size: 24px; line-height: 2.5em; }
+.viewpoint .leftop .info{ height:130px; position:relative; overflow:hidden;}
+.viewpoint .leftop .thumb { width: 170px; height:128px; display: inline-block; position:absolute; left:0; top:0;}
+.viewpoint .leftop .thumb img { width: 100%; height: 100%; }
+.viewpoint .leftop .intro{ color:#888; padding-left:180px; height:66px; line-height:22px; overflow:hidden;}
+.viewpoint .leftop .updatetime{ padding-left:180px; color:#cbcbcb; display:block; padding-top:40px;}
+.viewpoint .leftop .pk{ margin-top:10px;}
+.viewpoint .leftop .pk .head { background-color: #f0f0f0; padding: 5px; position: relative; overflow: hidden; }
+.viewpoint .leftop .pk .head .agree { display: inline-block; width: 60px; height: 56px; border-radius: 5px; border: 1px solid #eb6100; background: #eb6100 url(images/agree.png) no-repeat center top; text-decoration: none; float:left; }
+.viewpoint .leftop .pk .head .agree:hover { background-color: #d40000; border-color: #d40000; }
+.viewpoint .leftop .pk .head .agree span { margin-top: 30px; color: #eb6100; display: block; background-color: #fff; text-align: center; border-radius: 0 0 4px 4px; font-family: Arial; height:26px;}
+.viewpoint .leftop .pk .head .agree.r { background: #009beb url(images/agree.png) no-repeat center -28px; border-color: #009beb; float: right; }
+.viewpoint .leftop .pk .head .agree.r:hover { background-color: #01c2eb; border-color: #01c2eb; }
+.viewpoint .leftop .pk .head .agree.r span { color: #009beb; }
+.viewpoint .leftop .pk .head .op { float: left; margin-left: 15px; width: 205px; display: inline-block; font-family: "Microsoft Yahei", sans-serif; }
+.viewpoint .leftop .pk .head .op.r { float: right; margin: 0 15px 0 0; }
+.viewpoint .leftop .pk .head .triangle { border-color: #959394 #f0f0f0 #f0f0f0 #f0f0f0; border-width: 67px 45px 0 45px; border-style: solid; width: 0; height: 0; position: absolute; top:0; left: 293px; }
+.viewpoint .leftop .pk .head .triangle span { font: bold 26px "Microsoft Yahei",sans-serif; position: absolute; top: -62px; left: -18px; color: #fff;}
+.viewpoint .leftop .pk .list { margin-top: 0; overflow: hidden; }
+.viewpoint .leftop .pk .list ul { width: 50%; margin: 0; padding: 10px 0; float: left; overflow: hidden; border: 1px solid #e8e8e8; box-sizing: border-box; }
+.viewpoint .leftop .pk .list ul:first-child { border-right-width: 0; }
+.viewpoint .leftop .pk .list li { padding: 2px 15px; margin: 0; border: none; font-family:SimSun;}
+.viewpoint .rightop{ background:#fafafa; padding:0 10px; width:280px;}
+.viewpoint .rightop li{ position: relative; height: 50px; padding: 10px 25px; color: #676767; }
+.viewpoint .rightop h4{ font: normal 20px/2.5 "Microsoft Yahei",sans-serif; border-bottom: 1px solid #e8e8e8; }
+.viewpoint .rightop .quo { font: normal 36px/1 SimHei, sans-serif; color: #c9c9c9; }
+.viewpoint .rightop .quo.l { position: absolute; top: 5px; left: -18px; }
+.viewpoint .rightop .quo.r { position: absolute; bottom: -10px; right: -17px; }
+.viewpoint .rightop .action { text-align: center; padding: 23px 0; }
+.viewpoint .rightop .action a { background-color: #ea6200; color: #fff; text-decoration: none; padding: 8px; border-radius: 2px; line-height:15px;}
+.viewpoint .rightop .action a:hover { background-color: #d20003;}
+.viewpoint .spe_content .list{ margin-top:20px;}
+.viewpoint .spe_content .list li { font-size: 12px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed #cacaca; position:relative;}
+.viewpoint .spe_content .list li .thumb{ position:absolute; left:0; top:0; width:155px; height:115px; display:block;}
+.viewpoint .spe_content .list li .thumb img{ width:100%; height:100%;}
+.viewpoint .info_rs{ padding-left:170px;}
+.viewpoint .info_rs .title{ margin: 0 0 7px; font-size: 16px; }
+.viewpoint .info_rs .title a.cat { color: #eb6100; text-decoration: none; }
+.viewpoint .info_rs .intro { color: #888888; line-height: 2em; margin-bottom:13px;}
+.viewpoint .info_rs .intro .fulltext { color: #eb6100; }
+.viewpoint .info_rs .author { background-color: #5a5655; color: #fff; padding: 3px 5px; border-radius: 2px; margin-right: 5px; }
+.viewpoint .info_rs .tag { color: #bcbcbc; }.viewpoint .info_rs .tag a { color: #bcbcbc; }
+.viewpoint .info_rs .tag a:hover { color: #eb6100; text-decoration: none; }
+.viewpoint .info_rs .posttime { float: right; color: #c9caca; }
+.viewpoint .stars{ padding:10px 9px; background:#f0f0f0; overflow:hidden;}
+.viewpoint .stars ul{ margin:0 -8px; padding:0;}
+.viewpoint .stars li{ float:left; position:relative; width:68px; height:68px; margin-right:16px; margin-left:8px; margin-right:8px;}
+.viewpoint .stars li img{ width:100%; height:100%;}
+.viewpoint .stars li .author{ position:absolute; left:0; bottom:0; z-index:2; padding:0 5px; background-color:rgba(0,0,0,0.7); color:#fff; width:58px; height:20px; font:normal 12px/20px serif; text-align:center; overflow:hidden;}
+.viewpoint .stars .prefix{ background:#eb6100; color:#fff; font:normal 16px/1.5em "Microsoft YaHei"; width:68px; padding-top:13px; height:55px; display:inline-block; text-align:center;}
+.viewpoint .journalists ul { margin-top: 10px; }
+.viewpoint .journalists li { margin-bottom: 15px; padding-bottom: 15px; position: relative; border-bottom: 1px dashed #cacaca; overflow: hidden; }
+.viewpoint .journalists li:last-child { margin-bottom: 0; }
+.viewpoint .journalists li a { display: inline-block; }
+.viewpoint .journalists .avatars { margin: 0 -5px; border-bottom: 1px dashed #cacaca; }
+.viewpoint .journalists .avatars li { margin-bottom: 15px; padding: 0 5px; float: left; width: 25%; box-sizing: border-box; border: none; }
+.viewpoint .journalists .avatars li img { width: 100%; height: 70px; }
+.viewpoint .journalists .avatars li .author { text-align: center; color: #000; line-height: 1.4em; font-family: "Microsft Yahei", sans-serif; }
+.viewpoint .journalists .avatar { height: 70px; width: 70px; display: inline-block; float: left; margin-right: 10px; }
+.viewpoint .journalists .avatar img { height: 100%; width: 100%; border-radius: 0; }
+.viewpoint .journalists h4 { font: normal 12px/1.8em "Microsoft Yahei",sans-serif; max-height: 3.6em; margin-bottom: 7px; height: 42px; overflow: hidden; }
+.viewpoint .journalists .author .name { background-color: #5a5655; color: #fff; padding: 3px 5px; border-radius: 2px; margin-right: 5px; }
+.viewpoint .journalists .author .title { font-size: 12px; color: #bcbcbc; line-height: 1em; }
+.viewpoint .journalists .intro { color: #888888; margin-top: 5px; }
+.viewpoint .discussion .widget-head { border-bottom: none; }
+.viewpoint .discussion ul { margin: 0 -10px; }
+.viewpoint .discussion ul li { margin: 0 10px 10px; padding: 10px; overflow: hidden; width: 490px; float: left; box-sizing: border-box; background-color: #f0f0f0; }
+.viewpoint .discussion ul li .avatar { width: 70px; height: 70px; display: inline-block; float: left; }
+.viewpoint .discussion ul li .avatar img { width: 100%; height: 100%; border-radius: 0; }
+.viewpoint .discussion ul li .author { width: 85px; height: 70px; padding: 0 10px; box-sizing: border-box; float: left; border-right: 1px solid #e4e4e4; }
+.viewpoint .discussion ul li .author .name { font-size: 15px; font-family: "Microsoft Yahei", sans-serif; line-height: 2.2em; width: 65px; overflow: hidden; height: 2.2em; }
+.viewpoint .discussion ul li .author .title { color: #bdbdbd; }
+.viewpoint .discussion ul li .content { width: 315px; height: 70px; margin: 0; padding-left: 10px; box-sizing: border-box; float: left; }
+.viewpoint .discussion ul li .content li { margin: 0; padding: 0; line-height: 2.4em; font-size: 14px; }

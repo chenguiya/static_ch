@@ -1,0 +1,67 @@
+@charset "utf-8";
+/**video_index**/
+.videoM{ width:1000px; margin:0 auto 20px; text-align:left; overflow:hidden;}
+.videoM .tid_mian{ margin-top:20px;}
+.videoM .tid_hb_l{ width:675px; float:left; overflow:hidden;}
+.videoM .slidebox{width:675px; height:361px; overflow:hidden; position:relative;}
+.videoM .slidebox ul.items{float:left; background:none; list-style:none; padding:0px; margin:0px; height:361px;}
+.videoM .slidebox ul.items a{ height:361px;}
+.videoM .slidebox ul.items li{ float:left; background:none; list-style:none; padding:0px; margin:0px; position:relative; height:361px;}
+.videoM .slidebox ul.items li .slide_tit{ position:absolute; left:0px; bottom:0px; width:100%; height:40px;color:#FFF; font-size:18px; line-height:40px; background:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter:alpha(opacity=70); opacity: 0.7; text-indent:10px;}
+.videoM .slidebox ul.items li .slide_tit:hover{color:#FFF;text-decoration:underline;}
+.videoM .slide_bar{ position:absolute; right:0px; bottom:0; height:40px;}
+.videoM .slide_bar li{display:inline-block;float:left; width:10px; height:10px; background-color:#c8c5c5; text-indent:-99999px; margin:15px 10px 0px 0px; border-radius:10px; cursor:pointer;}
+.videoM .slide_bar li.active{ background:#fff;}
+.videoM .slidenext,.videoM .slidepre{ font-size: 50px; color: #fff; position: absolute; top: 125px; cursor: pointer; opacity: 0.6; }
+.videoM .slidenext{right:0;}.videoM .slidenext:hover{opacity:1;}
+.videoM .slidepre{left:0;}.videoM .slidepre:hover{opacity:1;}
+.videoM .tid_hb_r{ float:right; width:325px; overflow:hidden; height:361px;}
+.videoM .tih_h3{ height:30px; position:relative; line-height:30px; font-size:16px; color:#fff; font-weight:normal; font-family:"Microsoft YaHei"; background:#595656; text-indent:10px; color:#fff;}
+.videoM .tih_hb{ color:#fff;}
+.videoM .tih_h3 .t_h_more{ position:absolute; right:5px; top:0; font-size:12px; color:#fff; text-decoration:none;}
+.videoM .tih_info{ background:url(images/tid_bgco.png) repeat 0 0; height:331px; width:305px; padding:10px;}
+.videoM .tih_info li{ line-height:normal; margin-bottom:12px; position:relative;zoom:1; *display:inline;}
+.videoM .tih_digi{ width:19px; height:19px; display:inline-block; position:absolute; left:0; top:0; line-height:normal; background:#bebebe; text-align:center;-moz-border-radius:50%;-webkit-border-radius:50%; border-radius:50%; color:#fff; line-height:19px;}
+.videoM .tih_red{background:#eb6100;}
+.videoM .tih_txt{ line-height:20px; height:20px; overflow:hidden; padding-left:25px; font-size:14px; color:#333; font-family:"宋体";}
+.videoM .tih_show{ height:82px; overflow:hidden; padding-left:25px; display: none;}
+.videoM .tih_pics{ float:left; width:110px; margin-top:3px;}
+.videoM .t_show_txt{ float:left; margin-left:10px; width:150px; }
+.videoM .t_show_txt a{font-family:"Microsoft YaHei"; font-size:14px; line-height:22px; height:44px; overflow:hidden; margin-bottom:23px;}
+.videoM .t_show_txt span{ color:#bcbcbc; font-size:12px; font-family:"宋体";}
+.videoM .mainBox{ border-top:1px solid #eb6100; background:#f7f7f7; width:970px; padding:15px; margin-top:20px; overflow:hidden;}
+.videoM .mainTag{ width:327px; height:303px; overflow:hidden; font-family:"Microsoft YaHei";}
+.videoM .mainTag h3,.videoM .mainBox h3{ font-size:20px; color:#eb6100;}
+.videoM .mainTagC{ height:100px; overflow:hidden; margin:16px 0;}
+.videoM .mainTagC li{ display:inline; margin-right:15px;}
+.videoM .sportvid{ overflow:hidden; margin-left:-7px; width:342px;}
+.videoM .sportvid li{ width:156px; height:145px; margin-left:7px; margin-right:8px; margin-bottom:15px; font-family:SimSun; float:left;}
+.videoM .sportvid li a{ display:block; margin-bottom:3px; line-height:20px;}
+.videoM .sportvideoImg{ position:relative; height:104px;}
+.videoM .sportvideoImg .videoIco{ position:absolute; bottom:10px; left:10px; background:url(images/videoico.png) no-repeat 0 0; display:block; width:22px; height:22px;}
+.videoM .sportvideoImg:hover .videoIco{ background-position:0 -26px;}
+.videoM .mainVideo{ width:287px; height:303px; overflow:hidden; margin:0 14px; position:relative;}
+.videoM .mainVideo a{ display:block;}
+.videoM .videoIcoB{ background:url(images/videoicob.png) no-repeat 0 0; width:58px; height:58px; position:absolute; left:50%; top:50%; margin-left:-29px; margin-top:-29px;}
+.videoM .videoIcoB:hover{ background-position:0 -70px;}
+.videoM .videoTitle{ position:absolute; left:0; bottom:0; font-size:16px; font-family:"Microsoft YaHei"; height:40px; line-height:40px; overflow:hidden; width:267px; padding:0 10px; background:#000; opacity:0.7; filter:alpha(opacity=70); color:#fff;}
+.videoM .videoListB{ width:990px;}
+.videoM .videoListB li{ width:178px; height:150px; overflow:hidden; float:left; display:inline; margin-right:20px; margin-top:15px; line-height:20px;}
+
+/**video_list**/
+.bread,.bread a{ color:#c9caca;}
+.bread{ border-bottom:1px solid #f2f2f2; padding-top:5px;}
+.videolist{ padding:0 15px; overflow:hidden; width:968px;}
+.videolist .video_uls{ width:990px;}
+.videolist .video_uls li{ float:left; margin-top:15px; margin-right:15px;}
+.videolist .video_uls li img{ display:block; margin:0 auto;}
+.videolist .video_uls li a{ display:block; line-height:20px; color:#333; width:223px;position:relative;}
+.videolist .video_uls li a:hover{ color:#eb6100; text-decoration:none;}
+.videolist .video_uls li a.listVideoImg{ padding:3px; border:1px solid #fff; width:223px; }
+.videolist .video_uls li a.listVideoImg:hover{ border:1px solid #e6e6e6;}
+.videolist .video_uls .videoIcoM{ background:url(images/videoicom.png) no-repeat 0 0; width:27px; height:27px; position:absolute; left:12px; bottom:12px; display:block;}
+.videolist .video_uls .videoIcoM:hover{ background-position:0 -38px;}
+.videolist .videpage{ margin:20px 0;}
+
+
+

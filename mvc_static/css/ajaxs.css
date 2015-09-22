@@ -1,0 +1,14 @@
+@charset "utf-8";
+.y{ float:right;}
+.wp_get01{ width:1040px; margin:0 auto;}
+.wp_get01 .wp_bd{ background:#fff; margin:20px auto; padding:30px 20px;}
+.leagues{ margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #efefef;}
+.league{ margin:10px auto; color:#aab2bd; font-family:SimSun;}
+.league dt{ float:left; width:50px; overflow:hidden;}
+.league .club{ margin:0 5px; cursor:pointer; padding:2px;}
+.league .club.active{ background-color:#eb6001; color:#fff;}
+.searchR{ font-size:14px; font:"Microsoft YaHei";}
+.searchR a{ font-size:12px; font-family:SimSun; color:#727171;}
+
+
+

@@ -1,0 +1,23 @@
+@charset "utf-8";
+.box{ width:1000px; margin:0 auto; clear:both;}
+.notfound { border: 1px solid #e9e9e9; margin: 20px auto; background: url(images/404.jpg) 45px 55px no-repeat; min-height: 545px; }
+.notfound h1 { margin: 50px 25px 25px 340px; font: bold 45px "Microsoft Yahei", sans-serif; color: #eb6100; }
+.notfound .nav { margin: 0 25px 30px 340px; padding-bottom: 30px; border-bottom: 1px dotted #b2b2b2; color: #cf0000; font-family: "Microsoft Yahei", sans-serif; font-size: 14px; }
+.notfound .nav a { color: #cf0000; text-decoration: none; margin-left: 10px; }
+.notfound .featured { margin-left: 415px; overflow: hidden; }
+.notfound .featured h4 { font: normal 16px "Microsoft Yahei", sans-serif; margin: 0 auto 20px; }
+.notfound .featured li { font-size: 14px; margin: 5px 0; position: relative; overflow: hidden; }
+.notfound .featured li a { color: #777; }
+.notfound .featured li a:hover { color: #eb6100; text-decoration: none; }
+.notfound .featured .col1 { width: 400px; float: left; }
+.notfound .featured .col1 li { height: 24px; width: 380px; }
+.notfound .featured .col2 { width: 170px; float: left; padding-top: 40px; }
+.notfound .featured .col2 li { margin-bottom: 30px; }
+.notfound .featured .col2 img { width: 170px; height: 110px; }
+.notfound .featured .col2 .title { width: 100%; height: 25px; font: normal 13px/25px serif; text-align: center; background-color: rgba(0, 0, 0, 0.5); position: absolute; bottom: 7px; }
+.notfound .featured .col2 .title a { color: #fff; }
+
+body { background-color: #fff; }
+
+.menu_bd{ display:none;}
+.hotLink { display: none; }

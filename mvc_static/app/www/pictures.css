@@ -1,0 +1,34 @@
+.pictures { margin: 40px auto; }
+.pictures ul { overflow: hidden; }
+.pictures .widget { width: auto; margin-bottom: 40px; overflow: hidden; }
+.pictures .widget .widget-head { height: 56px; line-height: 56px; border-bottom: none; font-size: 24px; }
+.pictures .showcase { overflow: hidden; margin-bottom: 40px; }
+.pictures .showcase ul { font-size: 0; margin: 0 0 -1px -1px; width: 195px; float: left; }
+.pictures .showcase li { float: left; box-sizing: border-box; width: 50%; height: 86px; line-height: 1em; padding: 0 0 1px 1px; position: relative; }
+.pictures .showcase li img { width: 100%; height: 100%; }
+.pictures .showcase li .shadow { background: rgba(0, 0, 0, 0.7); position: absolute; width: 100%; height: 85px; display: none; top: 0; left: 0; }
+.pictures .showcase .case { width: 612px; height: 343px; box-sizing: border-box; padding: 0 1px; float: left; position: relative; }
+.pictures .showcase .case img { width: 100%; height: 100%; }
+.pictures .showcase .case .title { position: absolute; width: 610px; height: 38px; box-sizing: border-box; padding: 0 10px; font: normal 16px/38px sans-serif; bottom: 0; background-color: rgba(0, 0, 0, 0.6); color: #fff; }
+.pictures .wall ul { font-size: 0; margin-left: -1px; }
+.pictures .wall li { float: left; width: 25%; box-sizing: border-box; padding: 0 0 1px 1px; margin: 0; line-height: 1em; }
+.pictures .wall li img { width: 100%; height: 100%; }
+
+.com-vision .gallery { margin: -1px; padding: 0; box-sizing: border-box; }
+.com-vision .gallery li { display: block; position: relative; color: #fff; }
+.com-vision .gallery li a { color: #fff; }
+.com-vision img { width: 100%; height: 100%; }
+.com-vision .transLayer { width: 100%; height: 100%; margin: 0 0 1px 1px; padding: 20px; box-sizing: border-box; }
+.com-vision ul { float: left; overflow: hidden; }
+.com-vision .ga1 { width: 290px; }
+.com-vision .ga2 { width: 524px; }
+.com-vision .ga2 .transLayer { padding: 75px 20px 20px; }
+.com-vision .ga3 { width: 187px; }
+.com-vision .ga1 .transLayer, .com-vision .ga3 .transLayer { padding: 165px 20px 20px; }
+.com-vision li { float: left; padding: 0 0 1px 1px; margin: 0; }
+.com-vision .g1 { width: 290px; height: 351px; }
+.com-vision .g2 { width: 337px; height: 190px; }
+.com-vision .g3 { width: 185px; height: 190px; }
+.com-vision .g4 { width: 185px; height: 160px; }
+.com-vision .g5 { width: 337px; height: 160px; }
+.com-vision .g6 { width: 187px; height: 351px; }

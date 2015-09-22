@@ -1,0 +1,205 @@
+/*视频播放*/
+.titleL{ font-family:Microsoft YaHei; font-size:24px; color:#333; margin-bottom:15px; padding:2px 0;}
+.videoSilder{}
+.playvideo{ background:#2f2f2f; padding:9px; position:relative;}
+.playvideo img{ width:674px; height:361px; border:1px solid #3a3a3a;}
+.playAn{ background:url(images/videoicob.png) no-repeat; width:58px; height:58px; position:absolute; top:50%; left:50%; margin-left:-29px; margin-top:-29px;}
+
+.related{ width:306px; background:#494949; height: 389px;}
+.relatedTitle{ color:#fff; font-size:18px;font-family:Microsoft YaHei; border-bottom:1px solid #525252; height:47px; line-height:47px; padding:0 10px;}
+
+
+.videoTagCon{ width:960px; margin:0 auto; height:24px; line-height:24px; padding:10px 20px; font-family:Microsoft YaHei; background:#ececec;}
+.tagIco li{ float:left; margin-right:50px; height:24px; width:auto;}
+.tagIco a,.tagIco span{ padding-left:23px; width:auto;cursor:pointer; display:block;height:24px; float:left; color:#666;} 
+.tagIco a:hover{ color:#eb6100;}
+.zan{background:url(images/tagIco.png) 0px -53px no-repeat;}
+.zan:hover{background:url(images/tagIco.png) 0px 2px no-repeat;}
+.cai{background:url(images/tagIco.png) 0px -75px no-repeat;}
+.cai:hover{background:url(images/tagIco.png) 0px -25px no-repeat;}
+.tagIco .sc{background:url(images/tagIco.png) 0px -130px no-repeat; padding-left:20px;}
+.pl{background:url(images/tagIco.png) 0px -105px no-repeat;}
+.ml{background:url(images/tagIco.png) 0px -153px no-repeat;}
+.tagIco .bf{background:url(images/tagIco.png) 0px -188px no-repeat; padding-left:15px;}
+.tagIco .shareIco{background:url(images/tagIco.png) 0px -218px no-repeat; padding-left:15px;}
+.tagMobel{ position:relative;}
+.codeOpen{ width:405px; position:absolute; top:30px; left:0px;font-family:SimSun; font-size:12px; line-height:180%; display:none; z-index: 300;}
+.codeOpen p{ padding:2px 0px; margin:0;}
+.codeOpen .codeTitle{ font-size:14px;font-family: Microsoft YaHei; border-bottom:1px solid #2e2e2e; padding-bottom:5px; margin:0;}
+.codeOpen .codeTitle2{ border-top:1px solid #4d4d4d; padding-top:5px;}
+.looking{ color:#a1a0a0;}
+.jiaoTop{ background:url(images/jiao.gif) right no-repeat; width:55px; height:8px;}
+.codeCon{moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;background:#3e3e3e; width:385px; padding:10px; color:#fff; }
+.codeCon_l{ width:270px; float:left;}
+.codeCon_r{ width:100px; float:right; text-align:center;}
+.codeCon_r img{opacity:1;-moz-opacity:1;filter:alpha(opacity=100);background:#000;}
+.codeCon_r a{ display:block; background:url(images/down.png) no-repeat; width:95px; height:22px; font-size:0px; margin-top:10px;}
+
+.tagCon{ width:1000px; margin:0 auto; color:#666666;background:#fafafa; font-size:12px; padding:10px 0; line-height:220%;}
+.tagCon ul{ padding:0 15px;}
+.tagCon b{ font-weight:normal; color:#a8a8a8;}
+.tagCon a{color:#666;}
+.tagCon a:hover{color:#ce000c;}
+.tagCon li{ margin-top:5px;} 
+.tagCon li span{ padding-right:10px; padding-right:50px;}
+
+.mainTitle{ background:url(images/videoTico.gif) no-repeat;font-family: Microsoft YaHei;padding-left:40px; height:32px; line-height:32px;font-size:22px; color:#ee8600; border-bottom:2px solid #e6e6e6;}
+.infoConList{ overflow:hidden;}
+.infoConList li{width:150px; height:135px; overflow:hidden;line-height:150%; float:left; display:inline; border-top:1px dotted #cccccc; padding:20px 8px; margin-top:-1px;}
+.infoConList li a{ display:block;}
+.infoConList .videoPic{width:150px;height:101px; background:url(images/picbg.gif) no-repeat;}
+.infoConList li span{ display:block; margin-top:3px;}
+.infoConList .showIco {margin-top: -138px;width: 147px;height: 98px;}
+.infoConList .videoIco{ margin-top:65px;}
+
+.videoSLeft{ width:675px;}
+.videoSLeft .titleBig,.titleBig{ color:#000000; font-size:18px; height:35px; line-height:35px; padding:5px 0;font-family:Microsoft YaHei; border-top:1px solid #eb6100;}
+.videoSLeft .titleBig{ font-size:16px;}
+.titleBig .more{ line-height:50px; margin-top:-25px;}
+.titleBig .more:hover{ text-decoration:none;}
+.highlights a{ display:block;}
+.highlights ul{ margin-left:-18px; width:693px; overflow:hidden;}
+.highlights li{ float:left; width:155px; display:inline; margin-left:18px; height:130px; overflow:hidden; margin-bottom:10px;}
+.highlights .showVideo{position:relative; height:155px; height:103px; overflow:hidden;}
+.highlights .videoIcoM{bottom:5px; left:5px;}
+
+.videoSRight{ width:300px; overflow:hidden;}
+
+
+.RelatedList{ height:310px; overflow:hidden; text-align:left; padding:10px 10px 0 10px; width:286px;}
+.RelatedList li{ background:url(images/infot.gif) repeat-x; height:62px; padding:8px 0px; width:286px; text-align:left; float:left;}
+.RelatedList .videoPic{ position:relative; width:93px; height:62px; display:block;}
+.RelatedList li .fl{ width:93px; height:62px; display:inline;}
+.RelatedList li .RelatedTxt{ width:175px; color:#8b8989; float:left; margin-left:10px; line-height:145%;}
+.RelatedList li .RelatedTxt a{color:#fff; display:block; height:40px; margin-bottom:5px;font-family: Microsoft YaHei;}
+.RelatedList li .RelatedTxt a:hover{ color:#fff;}
+.RelatedList li .RelatedTxt span{font-family:Arial;font-size:12px; display:block; color:#8b8989;}
+
+
+.RelatedList .videoIco{ bottom:5px; left:5px;}
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 8px;
+	height: 100%;
+	
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+}
+
+.jspVerticalBar *,.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #2c2c2c;
+	position: relative;
+	moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;
+	padding:0px 1px;
+}
+
+.jspDrag
+{
+	background: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	moz-border-radius: 8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;
+}
+
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+/*
+*CSS Styles that are needed by jScrollPane for it to operate correctly.
+*END
+*/
+.videoSLeft .titleBig,.hotphoto .titleBig{ border-bottom:0;}
